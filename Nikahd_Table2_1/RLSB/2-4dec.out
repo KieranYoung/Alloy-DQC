@@ -1,0 +1,35 @@
+Processing file './RLSB/2-4dec.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is None
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 0 (0.00%)
+	Layer merging reduced the layer count by 0 (0.00%)
+	There was a total layer reduction of 0 (0.00%)
+	The layer total is 4
+	The number of qubits is 6
+	The number of machines is 2
+	The largest gate has arity 3
+	The machine capacity is 3
+	The qubit allocation policy is 'QubitAlloc.RANDOM'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Writing instance './RLSB/2-4dec.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [0, 12] and 8 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [0, 5] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [4, 5] and 8 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:00.52
+
+	Cumulative solution is 6
+
+	Time elapsed: 00:00:00.54

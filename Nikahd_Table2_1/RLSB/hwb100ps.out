@@ -1,0 +1,5441 @@
+Processing file './RLSB/hwb100ps.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is 3
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 0 (0.00%)
+	Layer merging reduced the layer count by 5 (0.40%)
+	There was a total layer reduction of 5 (0.40%)
+	The layer total is 1252
+	The number of qubits is 107
+	The number of machines is 7
+	The largest gate has arity 8
+	The machine capacity is 16
+	The qubit allocation policy is 'QubitAlloc.RANDOM'
+	Splitting into 417 subproblems
+
+	Instance 0
+		Writing instance './RLSB/hwb100ps.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:02:53.00
+
+	Instance 1
+		Writing instance './RLSB/hwb100ps.sub.1.als'
+		Running Alloy
+		Iteration 0 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [3, 12] and 9 Int
+			Satisfiable
+		Iteration 3 with search 5 in range [3, 7] and 9 Int
+			Satisfiable
+		Iteration 4 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:03:44.73
+
+	Instance 2
+		Writing instance './RLSB/hwb100ps.sub.2.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:56.98
+
+	Instance 3
+		Writing instance './RLSB/hwb100ps.sub.3.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:14.33
+
+	Instance 4
+		Writing instance './RLSB/hwb100ps.sub.4.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:15.61
+
+	Instance 5
+		Writing instance './RLSB/hwb100ps.sub.5.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:23.10
+
+	Instance 6
+		Writing instance './RLSB/hwb100ps.sub.6.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:57.88
+
+	Instance 7
+		Writing instance './RLSB/hwb100ps.sub.7.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:12.94
+
+	Instance 8
+		Writing instance './RLSB/hwb100ps.sub.8.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:16.62
+
+	Instance 9
+		Writing instance './RLSB/hwb100ps.sub.9.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:16.65
+
+	Instance 10
+		Writing instance './RLSB/hwb100ps.sub.10.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.58
+
+	Instance 11
+		Writing instance './RLSB/hwb100ps.sub.11.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:05.51
+
+	Instance 12
+		Writing instance './RLSB/hwb100ps.sub.12.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:06.90
+
+	Instance 13
+		Writing instance './RLSB/hwb100ps.sub.13.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:09.39
+
+	Instance 14
+		Writing instance './RLSB/hwb100ps.sub.14.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.52
+
+	Instance 15
+		Writing instance './RLSB/hwb100ps.sub.15.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:07.91
+
+	Instance 16
+		Writing instance './RLSB/hwb100ps.sub.16.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 12 in range [4, 20] and 9 Int
+			Satisfiable
+		Iteration 3 with search 8 in range [4, 11] and 9 Int
+			Satisfiable
+		Iteration 4 with search 6 in range [4, 7] and 9 Int
+			Satisfiable
+		Iteration 5 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 6 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:05:19.98
+
+	Instance 17
+		Writing instance './RLSB/hwb100ps.sub.17.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.21
+
+	Instance 18
+		Writing instance './RLSB/hwb100ps.sub.18.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:08.22
+
+	Instance 19
+		Writing instance './RLSB/hwb100ps.sub.19.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:09.84
+
+	Instance 20
+		Writing instance './RLSB/hwb100ps.sub.20.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.76
+
+	Instance 21
+		Writing instance './RLSB/hwb100ps.sub.21.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:09.63
+
+	Instance 22
+		Writing instance './RLSB/hwb100ps.sub.22.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.00
+
+	Instance 23
+		Writing instance './RLSB/hwb100ps.sub.23.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:08.22
+
+	Instance 24
+		Writing instance './RLSB/hwb100ps.sub.24.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:10.58
+
+	Instance 25
+		Writing instance './RLSB/hwb100ps.sub.25.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.57
+
+	Instance 26
+		Writing instance './RLSB/hwb100ps.sub.26.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:11.46
+
+	Instance 27
+		Writing instance './RLSB/hwb100ps.sub.27.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.86
+
+	Instance 28
+		Writing instance './RLSB/hwb100ps.sub.28.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:26.05
+
+	Instance 29
+		Writing instance './RLSB/hwb100ps.sub.29.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:24.45
+
+	Instance 30
+		Writing instance './RLSB/hwb100ps.sub.30.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.48
+
+	Instance 31
+		Writing instance './RLSB/hwb100ps.sub.31.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.05
+
+	Instance 32
+		Writing instance './RLSB/hwb100ps.sub.32.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.85
+
+	Instance 33
+		Writing instance './RLSB/hwb100ps.sub.33.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.97
+
+	Instance 34
+		Writing instance './RLSB/hwb100ps.sub.34.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:24.24
+
+	Instance 35
+		Writing instance './RLSB/hwb100ps.sub.35.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.38
+
+	Instance 36
+		Writing instance './RLSB/hwb100ps.sub.36.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:25.90
+
+	Instance 37
+		Writing instance './RLSB/hwb100ps.sub.37.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.11
+
+	Instance 38
+		Writing instance './RLSB/hwb100ps.sub.38.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.03
+
+	Instance 39
+		Writing instance './RLSB/hwb100ps.sub.39.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:24.64
+
+	Instance 40
+		Writing instance './RLSB/hwb100ps.sub.40.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.96
+
+	Instance 41
+		Writing instance './RLSB/hwb100ps.sub.41.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:25.24
+
+	Instance 42
+		Writing instance './RLSB/hwb100ps.sub.42.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.35
+
+	Instance 43
+		Writing instance './RLSB/hwb100ps.sub.43.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 17 in range [4, 30] and 9 Int
+			Satisfiable
+		Iteration 3 with search 10 in range [4, 16] and 9 Int
+			Satisfiable
+		Iteration 4 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 5 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 6 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:05:25.94
+
+	Instance 44
+		Writing instance './RLSB/hwb100ps.sub.44.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.42
+
+	Instance 45
+		Writing instance './RLSB/hwb100ps.sub.45.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:09.64
+
+	Instance 46
+		Writing instance './RLSB/hwb100ps.sub.46.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.22
+
+	Instance 47
+		Writing instance './RLSB/hwb100ps.sub.47.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:05.06
+
+	Instance 48
+		Writing instance './RLSB/hwb100ps.sub.48.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.89
+
+	Instance 49
+		Writing instance './RLSB/hwb100ps.sub.49.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:06.88
+
+	Instance 50
+		Writing instance './RLSB/hwb100ps.sub.50.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.32
+
+	Instance 51
+		Writing instance './RLSB/hwb100ps.sub.51.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:05.64
+
+	Instance 52
+		Writing instance './RLSB/hwb100ps.sub.52.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.23
+
+	Instance 53
+		Writing instance './RLSB/hwb100ps.sub.53.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:07.39
+
+	Instance 54
+		Writing instance './RLSB/hwb100ps.sub.54.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.25
+
+	Instance 55
+		Writing instance './RLSB/hwb100ps.sub.55.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.93
+
+	Instance 56
+		Writing instance './RLSB/hwb100ps.sub.56.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.64
+
+	Instance 57
+		Writing instance './RLSB/hwb100ps.sub.57.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.78
+
+	Instance 58
+		Writing instance './RLSB/hwb100ps.sub.58.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.03
+
+	Instance 59
+		Writing instance './RLSB/hwb100ps.sub.59.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.50
+
+	Instance 60
+		Writing instance './RLSB/hwb100ps.sub.60.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.66
+
+	Instance 61
+		Writing instance './RLSB/hwb100ps.sub.61.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:24.07
+
+	Instance 62
+		Writing instance './RLSB/hwb100ps.sub.62.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.46
+
+	Instance 63
+		Writing instance './RLSB/hwb100ps.sub.63.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.38
+
+	Instance 64
+		Writing instance './RLSB/hwb100ps.sub.64.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.91
+
+	Instance 65
+		Writing instance './RLSB/hwb100ps.sub.65.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.58
+
+	Instance 66
+		Writing instance './RLSB/hwb100ps.sub.66.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.79
+
+	Instance 67
+		Writing instance './RLSB/hwb100ps.sub.67.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.07
+
+	Instance 68
+		Writing instance './RLSB/hwb100ps.sub.68.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.97
+
+	Instance 69
+		Writing instance './RLSB/hwb100ps.sub.69.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.75
+
+	Instance 70
+		Writing instance './RLSB/hwb100ps.sub.70.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.33
+
+	Instance 71
+		Writing instance './RLSB/hwb100ps.sub.71.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.27
+
+	Instance 72
+		Writing instance './RLSB/hwb100ps.sub.72.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.60
+
+	Instance 73
+		Writing instance './RLSB/hwb100ps.sub.73.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:24.05
+
+	Instance 74
+		Writing instance './RLSB/hwb100ps.sub.74.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.38
+
+	Instance 75
+		Writing instance './RLSB/hwb100ps.sub.75.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:24.11
+
+	Instance 76
+		Writing instance './RLSB/hwb100ps.sub.76.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.32
+
+	Instance 77
+		Writing instance './RLSB/hwb100ps.sub.77.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.13
+
+	Instance 78
+		Writing instance './RLSB/hwb100ps.sub.78.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.27
+
+	Instance 79
+		Writing instance './RLSB/hwb100ps.sub.79.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:24.50
+
+	Instance 80
+		Writing instance './RLSB/hwb100ps.sub.80.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.45
+
+	Instance 81
+		Writing instance './RLSB/hwb100ps.sub.81.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.82
+
+	Instance 82
+		Writing instance './RLSB/hwb100ps.sub.82.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.89
+
+	Instance 83
+		Writing instance './RLSB/hwb100ps.sub.83.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.82
+
+	Instance 84
+		Writing instance './RLSB/hwb100ps.sub.84.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.96
+
+	Instance 85
+		Writing instance './RLSB/hwb100ps.sub.85.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.53
+
+	Instance 86
+		Writing instance './RLSB/hwb100ps.sub.86.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:53.15
+
+	Instance 87
+		Writing instance './RLSB/hwb100ps.sub.87.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.94
+
+	Instance 88
+		Writing instance './RLSB/hwb100ps.sub.88.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:53.39
+
+	Instance 89
+		Writing instance './RLSB/hwb100ps.sub.89.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.33
+
+	Instance 90
+		Writing instance './RLSB/hwb100ps.sub.90.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.93
+
+	Instance 91
+		Writing instance './RLSB/hwb100ps.sub.91.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.37
+
+	Instance 92
+		Writing instance './RLSB/hwb100ps.sub.92.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.67
+
+	Instance 93
+		Writing instance './RLSB/hwb100ps.sub.93.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.73
+
+	Instance 94
+		Writing instance './RLSB/hwb100ps.sub.94.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.36
+
+	Instance 95
+		Writing instance './RLSB/hwb100ps.sub.95.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.83
+
+	Instance 96
+		Writing instance './RLSB/hwb100ps.sub.96.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:53.81
+
+	Instance 97
+		Writing instance './RLSB/hwb100ps.sub.97.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.10
+
+	Instance 98
+		Writing instance './RLSB/hwb100ps.sub.98.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.04
+
+	Instance 99
+		Writing instance './RLSB/hwb100ps.sub.99.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.85
+
+	Instance 100
+		Writing instance './RLSB/hwb100ps.sub.100.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.39
+
+	Instance 101
+		Writing instance './RLSB/hwb100ps.sub.101.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.84
+
+	Instance 102
+		Writing instance './RLSB/hwb100ps.sub.102.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.26
+
+	Instance 103
+		Writing instance './RLSB/hwb100ps.sub.103.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.35
+
+	Instance 104
+		Writing instance './RLSB/hwb100ps.sub.104.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.99
+
+	Instance 105
+		Writing instance './RLSB/hwb100ps.sub.105.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.22
+
+	Instance 106
+		Writing instance './RLSB/hwb100ps.sub.106.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.60
+
+	Instance 107
+		Writing instance './RLSB/hwb100ps.sub.107.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 20 in range [4, 36] and 9 Int
+			Satisfiable
+		Iteration 3 with search 12 in range [4, 19] and 9 Int
+			Satisfiable
+		Iteration 4 with search 8 in range [4, 11] and 9 Int
+			Satisfiable
+		Iteration 5 with search 6 in range [4, 7] and 9 Int
+			Satisfiable
+		Iteration 6 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 7 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:06:08.88
+
+	Instance 108
+		Writing instance './RLSB/hwb100ps.sub.108.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.56
+
+	Instance 109
+		Writing instance './RLSB/hwb100ps.sub.109.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:08.32
+
+	Instance 110
+		Writing instance './RLSB/hwb100ps.sub.110.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.20
+
+	Instance 111
+		Writing instance './RLSB/hwb100ps.sub.111.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:09.39
+
+	Instance 112
+		Writing instance './RLSB/hwb100ps.sub.112.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.76
+
+	Instance 113
+		Writing instance './RLSB/hwb100ps.sub.113.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:53.04
+
+	Instance 114
+		Writing instance './RLSB/hwb100ps.sub.114.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:08.10
+
+	Instance 115
+		Writing instance './RLSB/hwb100ps.sub.115.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.65
+
+	Instance 116
+		Writing instance './RLSB/hwb100ps.sub.116.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:02:06.53
+
+	Instance 117
+		Writing instance './RLSB/hwb100ps.sub.117.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.70
+
+	Instance 118
+		Writing instance './RLSB/hwb100ps.sub.118.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.48
+
+	Instance 119
+		Writing instance './RLSB/hwb100ps.sub.119.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.62
+
+	Instance 120
+		Writing instance './RLSB/hwb100ps.sub.120.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.89
+
+	Instance 121
+		Writing instance './RLSB/hwb100ps.sub.121.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.44
+
+	Instance 122
+		Writing instance './RLSB/hwb100ps.sub.122.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.18
+
+	Instance 123
+		Writing instance './RLSB/hwb100ps.sub.123.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.06
+
+	Instance 124
+		Writing instance './RLSB/hwb100ps.sub.124.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.28
+
+	Instance 125
+		Writing instance './RLSB/hwb100ps.sub.125.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.31
+
+	Instance 126
+		Writing instance './RLSB/hwb100ps.sub.126.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.26
+
+	Instance 127
+		Writing instance './RLSB/hwb100ps.sub.127.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.60
+
+	Instance 128
+		Writing instance './RLSB/hwb100ps.sub.128.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:20.26
+
+	Instance 129
+		Writing instance './RLSB/hwb100ps.sub.129.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.53
+
+	Instance 130
+		Writing instance './RLSB/hwb100ps.sub.130.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:20.17
+
+	Instance 131
+		Writing instance './RLSB/hwb100ps.sub.131.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.52
+
+	Instance 132
+		Writing instance './RLSB/hwb100ps.sub.132.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.63
+
+	Instance 133
+		Writing instance './RLSB/hwb100ps.sub.133.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.28
+
+	Instance 134
+		Writing instance './RLSB/hwb100ps.sub.134.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.41
+
+	Instance 135
+		Writing instance './RLSB/hwb100ps.sub.135.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.00
+
+	Instance 136
+		Writing instance './RLSB/hwb100ps.sub.136.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.94
+
+	Instance 137
+		Writing instance './RLSB/hwb100ps.sub.137.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.13
+
+	Instance 138
+		Writing instance './RLSB/hwb100ps.sub.138.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.99
+
+	Instance 139
+		Writing instance './RLSB/hwb100ps.sub.139.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.92
+
+	Instance 140
+		Writing instance './RLSB/hwb100ps.sub.140.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.68
+
+	Instance 141
+		Writing instance './RLSB/hwb100ps.sub.141.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.46
+
+	Instance 142
+		Writing instance './RLSB/hwb100ps.sub.142.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:18.95
+
+	Instance 143
+		Writing instance './RLSB/hwb100ps.sub.143.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.88
+
+	Instance 144
+		Writing instance './RLSB/hwb100ps.sub.144.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:20.60
+
+	Instance 145
+		Writing instance './RLSB/hwb100ps.sub.145.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.57
+
+	Instance 146
+		Writing instance './RLSB/hwb100ps.sub.146.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.25
+
+	Instance 147
+		Writing instance './RLSB/hwb100ps.sub.147.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.06
+
+	Instance 148
+		Writing instance './RLSB/hwb100ps.sub.148.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.50
+
+	Instance 149
+		Writing instance './RLSB/hwb100ps.sub.149.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.81
+
+	Instance 150
+		Writing instance './RLSB/hwb100ps.sub.150.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.99
+
+	Instance 151
+		Writing instance './RLSB/hwb100ps.sub.151.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.81
+
+	Instance 152
+		Writing instance './RLSB/hwb100ps.sub.152.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.07
+
+	Instance 153
+		Writing instance './RLSB/hwb100ps.sub.153.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.59
+
+	Instance 154
+		Writing instance './RLSB/hwb100ps.sub.154.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.94
+
+	Instance 155
+		Writing instance './RLSB/hwb100ps.sub.155.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.44
+
+	Instance 156
+		Writing instance './RLSB/hwb100ps.sub.156.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:20.33
+
+	Instance 157
+		Writing instance './RLSB/hwb100ps.sub.157.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.67
+
+	Instance 158
+		Writing instance './RLSB/hwb100ps.sub.158.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.51
+
+	Instance 159
+		Writing instance './RLSB/hwb100ps.sub.159.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:50.76
+
+	Instance 160
+		Writing instance './RLSB/hwb100ps.sub.160.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.22
+
+	Instance 161
+		Writing instance './RLSB/hwb100ps.sub.161.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.77
+
+	Instance 162
+		Writing instance './RLSB/hwb100ps.sub.162.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.07
+
+	Instance 163
+		Writing instance './RLSB/hwb100ps.sub.163.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.34
+
+	Instance 164
+		Writing instance './RLSB/hwb100ps.sub.164.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.88
+
+	Instance 165
+		Writing instance './RLSB/hwb100ps.sub.165.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.38
+
+	Instance 166
+		Writing instance './RLSB/hwb100ps.sub.166.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.36
+
+	Instance 167
+		Writing instance './RLSB/hwb100ps.sub.167.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.48
+
+	Instance 168
+		Writing instance './RLSB/hwb100ps.sub.168.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.67
+
+	Instance 169
+		Writing instance './RLSB/hwb100ps.sub.169.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.66
+
+	Instance 170
+		Writing instance './RLSB/hwb100ps.sub.170.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:20.73
+
+	Instance 171
+		Writing instance './RLSB/hwb100ps.sub.171.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.23
+
+	Instance 172
+		Writing instance './RLSB/hwb100ps.sub.172.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:22.42
+
+	Instance 173
+		Writing instance './RLSB/hwb100ps.sub.173.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.72
+
+	Instance 174
+		Writing instance './RLSB/hwb100ps.sub.174.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:23.44
+
+	Instance 175
+		Writing instance './RLSB/hwb100ps.sub.175.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.20
+
+	Instance 176
+		Writing instance './RLSB/hwb100ps.sub.176.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.34
+
+	Instance 177
+		Writing instance './RLSB/hwb100ps.sub.177.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:20.44
+
+	Instance 178
+		Writing instance './RLSB/hwb100ps.sub.178.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.07
+
+	Instance 179
+		Writing instance './RLSB/hwb100ps.sub.179.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.44
+
+	Instance 180
+		Writing instance './RLSB/hwb100ps.sub.180.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.79
+
+	Instance 181
+		Writing instance './RLSB/hwb100ps.sub.181.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:20.49
+
+	Instance 182
+		Writing instance './RLSB/hwb100ps.sub.182.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.71
+
+	Instance 183
+		Writing instance './RLSB/hwb100ps.sub.183.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.41
+
+	Instance 184
+		Writing instance './RLSB/hwb100ps.sub.184.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:20.54
+
+	Instance 185
+		Writing instance './RLSB/hwb100ps.sub.185.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:53.18
+
+	Instance 186
+		Writing instance './RLSB/hwb100ps.sub.186.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.45
+
+	Instance 187
+		Writing instance './RLSB/hwb100ps.sub.187.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:51.10
+
+	Instance 188
+		Writing instance './RLSB/hwb100ps.sub.188.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:19.73
+
+	Instance 189
+		Writing instance './RLSB/hwb100ps.sub.189.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.09
+
+	Instance 190
+		Writing instance './RLSB/hwb100ps.sub.190.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.68
+
+	Instance 191
+		Writing instance './RLSB/hwb100ps.sub.191.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:21.62
+
+	Instance 192
+		Writing instance './RLSB/hwb100ps.sub.192.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:01:52.71
+
+	Instance 193
+		Writing instance './RLSB/hwb100ps.sub.193.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 7 in range [4, 10] and 9 Int
+			Satisfiable
+		Iteration 3 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:04:10.08
+
+	Instance 194
+		Writing instance './RLSB/hwb100ps.sub.194.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 6 in range [5, 7] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Iteration 3 with search 10 in range [8, 12] and 9 Int
+			Satisfiable
+		Iteration 4 with search 9 in range [8, 9] and 9 Int
+			Satisfiable
+		Iteration 5 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:05:13.55
+
+	Instance 195
+		Writing instance './RLSB/hwb100ps.sub.195.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:21.10
+
+	Instance 196
+		Writing instance './RLSB/hwb100ps.sub.196.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:21.43
+
+	Instance 197
+		Writing instance './RLSB/hwb100ps.sub.197.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:26.84
+
+	Instance 198
+		Writing instance './RLSB/hwb100ps.sub.198.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:24.46
+
+	Instance 199
+		Writing instance './RLSB/hwb100ps.sub.199.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:08.00
+
+	Instance 200
+		Writing instance './RLSB/hwb100ps.sub.200.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:03:15.10
+
+	Instance 201
+		Writing instance './RLSB/hwb100ps.sub.201.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:09.17
+
+	Instance 202
+		Writing instance './RLSB/hwb100ps.sub.202.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:06.08
+
+	Instance 203
+		Writing instance './RLSB/hwb100ps.sub.203.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:20.03
+
+	Instance 204
+		Writing instance './RLSB/hwb100ps.sub.204.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:03.60
+
+	Instance 205
+		Writing instance './RLSB/hwb100ps.sub.205.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:27.33
+
+	Instance 206
+		Writing instance './RLSB/hwb100ps.sub.206.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:15.97
+
+	Instance 207
+		Writing instance './RLSB/hwb100ps.sub.207.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:22.68
+
+	Instance 208
+		Writing instance './RLSB/hwb100ps.sub.208.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:18.90
+
+	Instance 209
+		Writing instance './RLSB/hwb100ps.sub.209.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:03:39.74
+
+	Instance 210
+		Writing instance './RLSB/hwb100ps.sub.210.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:28.60
+
+	Instance 211
+		Writing instance './RLSB/hwb100ps.sub.211.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:15.11
+
+	Instance 212
+		Writing instance './RLSB/hwb100ps.sub.212.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:41.49
+
+	Instance 213
+		Writing instance './RLSB/hwb100ps.sub.213.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:30.28
+
+	Instance 214
+		Writing instance './RLSB/hwb100ps.sub.214.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:44.92
+
+	Instance 215
+		Writing instance './RLSB/hwb100ps.sub.215.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:22.54
+
+	Instance 216
+		Writing instance './RLSB/hwb100ps.sub.216.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:02:10.89
+
+	Instance 217
+		Writing instance './RLSB/hwb100ps.sub.217.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:08.29
+
+	Instance 218
+		Writing instance './RLSB/hwb100ps.sub.218.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:38.52
+
+	Instance 219
+		Writing instance './RLSB/hwb100ps.sub.219.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:03.42
+
+	Instance 220
+		Writing instance './RLSB/hwb100ps.sub.220.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:15.14
+
+	Instance 221
+		Writing instance './RLSB/hwb100ps.sub.221.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:25.48
+
+	Instance 222
+		Writing instance './RLSB/hwb100ps.sub.222.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:42.10
+
+	Instance 223
+		Writing instance './RLSB/hwb100ps.sub.223.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:50.88
+
+	Instance 224
+		Writing instance './RLSB/hwb100ps.sub.224.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:26.99
+
+	Instance 225
+		Writing instance './RLSB/hwb100ps.sub.225.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:18.56
+
+	Instance 226
+		Writing instance './RLSB/hwb100ps.sub.226.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:35.34
+
+	Instance 227
+		Writing instance './RLSB/hwb100ps.sub.227.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:27.34
+
+	Instance 228
+		Writing instance './RLSB/hwb100ps.sub.228.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:03:45.57
+
+	Instance 229
+		Writing instance './RLSB/hwb100ps.sub.229.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:20.08
+
+	Instance 230
+		Writing instance './RLSB/hwb100ps.sub.230.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:57.28
+
+	Instance 231
+		Writing instance './RLSB/hwb100ps.sub.231.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:16.55
+
+	Instance 232
+		Writing instance './RLSB/hwb100ps.sub.232.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:29.24
+
+	Instance 233
+		Writing instance './RLSB/hwb100ps.sub.233.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:26.56
+
+	Instance 234
+		Writing instance './RLSB/hwb100ps.sub.234.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:14.00
+
+	Instance 235
+		Writing instance './RLSB/hwb100ps.sub.235.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:42.86
+
+	Instance 236
+		Writing instance './RLSB/hwb100ps.sub.236.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:14.74
+
+	Instance 237
+		Writing instance './RLSB/hwb100ps.sub.237.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:27.03
+
+	Instance 238
+		Writing instance './RLSB/hwb100ps.sub.238.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:48.57
+
+	Instance 239
+		Writing instance './RLSB/hwb100ps.sub.239.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:36.45
+
+	Instance 240
+		Writing instance './RLSB/hwb100ps.sub.240.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:03:36.52
+
+	Instance 241
+		Writing instance './RLSB/hwb100ps.sub.241.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:11.48
+
+	Instance 242
+		Writing instance './RLSB/hwb100ps.sub.242.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:23.43
+
+	Instance 243
+		Writing instance './RLSB/hwb100ps.sub.243.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:36.43
+
+	Instance 244
+		Writing instance './RLSB/hwb100ps.sub.244.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:14.58
+
+	Instance 245
+		Writing instance './RLSB/hwb100ps.sub.245.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:16.71
+
+	Instance 246
+		Writing instance './RLSB/hwb100ps.sub.246.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:15.64
+
+	Instance 247
+		Writing instance './RLSB/hwb100ps.sub.247.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:16.53
+
+	Instance 248
+		Writing instance './RLSB/hwb100ps.sub.248.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:09.04
+
+	Instance 249
+		Writing instance './RLSB/hwb100ps.sub.249.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:15.10
+
+	Instance 250
+		Writing instance './RLSB/hwb100ps.sub.250.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Iteration 3 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:03:36.17
+
+	Instance 251
+		Writing instance './RLSB/hwb100ps.sub.251.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:39.93
+
+	Instance 252
+		Writing instance './RLSB/hwb100ps.sub.252.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:26.36
+
+	Instance 253
+		Writing instance './RLSB/hwb100ps.sub.253.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:25.72
+
+	Instance 254
+		Writing instance './RLSB/hwb100ps.sub.254.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:26.06
+
+	Instance 255
+		Writing instance './RLSB/hwb100ps.sub.255.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:30.20
+
+	Instance 256
+		Writing instance './RLSB/hwb100ps.sub.256.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:10.34
+
+	Instance 257
+		Writing instance './RLSB/hwb100ps.sub.257.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.69
+
+	Instance 258
+		Writing instance './RLSB/hwb100ps.sub.258.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:21.03
+
+	Instance 259
+		Writing instance './RLSB/hwb100ps.sub.259.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:16.96
+
+	Instance 260
+		Writing instance './RLSB/hwb100ps.sub.260.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:37.50
+
+	Instance 261
+		Writing instance './RLSB/hwb100ps.sub.261.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:23.80
+
+	Instance 262
+		Writing instance './RLSB/hwb100ps.sub.262.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:31.31
+
+	Instance 263
+		Writing instance './RLSB/hwb100ps.sub.263.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:03:42.57
+
+	Instance 264
+		Writing instance './RLSB/hwb100ps.sub.264.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [2, 3] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Iteration 4 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:03:34.63
+
+	Instance 265
+		Writing instance './RLSB/hwb100ps.sub.265.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [1, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:10.98
+
+	Instance 266
+		Writing instance './RLSB/hwb100ps.sub.266.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [1, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:22.06
+
+	Instance 267
+		Writing instance './RLSB/hwb100ps.sub.267.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:18.09
+
+	Instance 268
+		Writing instance './RLSB/hwb100ps.sub.268.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:29.44
+
+	Instance 269
+		Writing instance './RLSB/hwb100ps.sub.269.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:31.01
+
+	Instance 270
+		Writing instance './RLSB/hwb100ps.sub.270.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:03:07.24
+
+	Instance 271
+		Writing instance './RLSB/hwb100ps.sub.271.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:03:17.33
+
+	Instance 272
+		Writing instance './RLSB/hwb100ps.sub.272.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [6, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [6, 7] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:13.93
+
+	Instance 273
+		Writing instance './RLSB/hwb100ps.sub.273.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [1, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:07.97
+
+	Instance 274
+		Writing instance './RLSB/hwb100ps.sub.274.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [1, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [1, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:10.16
+
+	Instance 275
+		Writing instance './RLSB/hwb100ps.sub.275.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:13.47
+
+	Instance 276
+		Writing instance './RLSB/hwb100ps.sub.276.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:15.65
+
+	Instance 277
+		Writing instance './RLSB/hwb100ps.sub.277.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:35.72
+
+	Instance 278
+		Writing instance './RLSB/hwb100ps.sub.278.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:20.77
+
+	Instance 279
+		Writing instance './RLSB/hwb100ps.sub.279.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:21.19
+
+	Instance 280
+		Writing instance './RLSB/hwb100ps.sub.280.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:19.99
+
+	Instance 281
+		Writing instance './RLSB/hwb100ps.sub.281.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:35.56
+
+	Instance 282
+		Writing instance './RLSB/hwb100ps.sub.282.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:17.16
+
+	Instance 283
+		Writing instance './RLSB/hwb100ps.sub.283.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:13.21
+
+	Instance 284
+		Writing instance './RLSB/hwb100ps.sub.284.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:37.95
+
+	Instance 285
+		Writing instance './RLSB/hwb100ps.sub.285.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:01:35.37
+
+	Instance 286
+		Writing instance './RLSB/hwb100ps.sub.286.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:36.44
+
+	Instance 287
+		Writing instance './RLSB/hwb100ps.sub.287.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:34.00
+
+	Instance 288
+		Writing instance './RLSB/hwb100ps.sub.288.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:01.19
+
+	Instance 289
+		Writing instance './RLSB/hwb100ps.sub.289.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:29.57
+
+	Instance 290
+		Writing instance './RLSB/hwb100ps.sub.290.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:40.91
+
+	Instance 291
+		Writing instance './RLSB/hwb100ps.sub.291.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:01:39.85
+
+	Instance 292
+		Writing instance './RLSB/hwb100ps.sub.292.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:26.84
+
+	Instance 293
+		Writing instance './RLSB/hwb100ps.sub.293.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:31.94
+
+	Instance 294
+		Writing instance './RLSB/hwb100ps.sub.294.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:32.50
+
+	Instance 295
+		Writing instance './RLSB/hwb100ps.sub.295.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.93
+
+	Instance 296
+		Writing instance './RLSB/hwb100ps.sub.296.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:01:50.24
+
+	Instance 297
+		Writing instance './RLSB/hwb100ps.sub.297.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 5 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:04:31.85
+
+	Instance 298
+		Writing instance './RLSB/hwb100ps.sub.298.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:27.49
+
+	Instance 299
+		Writing instance './RLSB/hwb100ps.sub.299.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:32.56
+
+	Instance 300
+		Writing instance './RLSB/hwb100ps.sub.300.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:11.35
+
+	Instance 301
+		Writing instance './RLSB/hwb100ps.sub.301.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:20.17
+
+	Instance 302
+		Writing instance './RLSB/hwb100ps.sub.302.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:11.47
+
+	Instance 303
+		Writing instance './RLSB/hwb100ps.sub.303.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:15.94
+
+	Instance 304
+		Writing instance './RLSB/hwb100ps.sub.304.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:12.03
+
+	Instance 305
+		Writing instance './RLSB/hwb100ps.sub.305.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:20.26
+
+	Instance 306
+		Writing instance './RLSB/hwb100ps.sub.306.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:33.24
+
+	Instance 307
+		Writing instance './RLSB/hwb100ps.sub.307.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:21.46
+
+	Instance 308
+		Writing instance './RLSB/hwb100ps.sub.308.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:23.01
+
+	Instance 309
+		Writing instance './RLSB/hwb100ps.sub.309.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:29.64
+
+	Instance 310
+		Writing instance './RLSB/hwb100ps.sub.310.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:13.54
+
+	Instance 311
+		Writing instance './RLSB/hwb100ps.sub.311.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:10.67
+
+	Instance 312
+		Writing instance './RLSB/hwb100ps.sub.312.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.32
+
+	Instance 313
+		Writing instance './RLSB/hwb100ps.sub.313.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:28.78
+
+	Instance 314
+		Writing instance './RLSB/hwb100ps.sub.314.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:29.32
+
+	Instance 315
+		Writing instance './RLSB/hwb100ps.sub.315.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:01:35.58
+
+	Instance 316
+		Writing instance './RLSB/hwb100ps.sub.316.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:40.60
+
+	Instance 317
+		Writing instance './RLSB/hwb100ps.sub.317.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:01:35.15
+
+	Instance 318
+		Writing instance './RLSB/hwb100ps.sub.318.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:20.15
+
+	Instance 319
+		Writing instance './RLSB/hwb100ps.sub.319.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:43.36
+
+	Instance 320
+		Writing instance './RLSB/hwb100ps.sub.320.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:40.18
+
+	Instance 321
+		Writing instance './RLSB/hwb100ps.sub.321.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:01:43.16
+
+	Instance 322
+		Writing instance './RLSB/hwb100ps.sub.322.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:21.49
+
+	Instance 323
+		Writing instance './RLSB/hwb100ps.sub.323.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:03:42.34
+
+	Instance 324
+		Writing instance './RLSB/hwb100ps.sub.324.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:41.04
+
+	Instance 325
+		Writing instance './RLSB/hwb100ps.sub.325.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:45.38
+
+	Instance 326
+		Writing instance './RLSB/hwb100ps.sub.326.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:25.99
+
+	Instance 327
+		Writing instance './RLSB/hwb100ps.sub.327.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:03:41.63
+
+	Instance 328
+		Writing instance './RLSB/hwb100ps.sub.328.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:42.66
+
+	Instance 329
+		Writing instance './RLSB/hwb100ps.sub.329.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Iteration 3 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:03:37.30
+
+	Instance 330
+		Writing instance './RLSB/hwb100ps.sub.330.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:19.85
+
+	Instance 331
+		Writing instance './RLSB/hwb100ps.sub.331.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:33.66
+
+	Instance 332
+		Writing instance './RLSB/hwb100ps.sub.332.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:41.12
+
+	Instance 333
+		Writing instance './RLSB/hwb100ps.sub.333.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:10.53
+
+	Instance 334
+		Writing instance './RLSB/hwb100ps.sub.334.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:02:08.74
+
+	Instance 335
+		Writing instance './RLSB/hwb100ps.sub.335.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:04.25
+
+	Instance 336
+		Writing instance './RLSB/hwb100ps.sub.336.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:23.10
+
+	Instance 337
+		Writing instance './RLSB/hwb100ps.sub.337.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:44.70
+
+	Instance 338
+		Writing instance './RLSB/hwb100ps.sub.338.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:17.91
+
+	Instance 339
+		Writing instance './RLSB/hwb100ps.sub.339.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:16.27
+
+	Instance 340
+		Writing instance './RLSB/hwb100ps.sub.340.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:11.57
+
+	Instance 341
+		Writing instance './RLSB/hwb100ps.sub.341.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:02:14.82
+
+	Instance 342
+		Writing instance './RLSB/hwb100ps.sub.342.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:25.86
+
+	Instance 343
+		Writing instance './RLSB/hwb100ps.sub.343.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:25.22
+
+	Instance 344
+		Writing instance './RLSB/hwb100ps.sub.344.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:34.89
+
+	Instance 345
+		Writing instance './RLSB/hwb100ps.sub.345.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.94
+
+	Instance 346
+		Writing instance './RLSB/hwb100ps.sub.346.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.57
+
+	Instance 347
+		Writing instance './RLSB/hwb100ps.sub.347.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:34.52
+
+	Instance 348
+		Writing instance './RLSB/hwb100ps.sub.348.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:29.49
+
+	Instance 349
+		Writing instance './RLSB/hwb100ps.sub.349.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:21.45
+
+	Instance 350
+		Writing instance './RLSB/hwb100ps.sub.350.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:27.50
+
+	Instance 351
+		Writing instance './RLSB/hwb100ps.sub.351.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:35.33
+
+	Instance 352
+		Writing instance './RLSB/hwb100ps.sub.352.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:21.42
+
+	Instance 353
+		Writing instance './RLSB/hwb100ps.sub.353.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:01:35.86
+
+	Instance 354
+		Writing instance './RLSB/hwb100ps.sub.354.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:01:45.94
+
+	Instance 355
+		Writing instance './RLSB/hwb100ps.sub.355.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:03:48.08
+
+	Instance 356
+		Writing instance './RLSB/hwb100ps.sub.356.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:22.31
+
+	Instance 357
+		Writing instance './RLSB/hwb100ps.sub.357.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:28.57
+
+	Instance 358
+		Writing instance './RLSB/hwb100ps.sub.358.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:37.83
+
+	Instance 359
+		Writing instance './RLSB/hwb100ps.sub.359.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.00
+
+	Instance 360
+		Writing instance './RLSB/hwb100ps.sub.360.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [4, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:03:41.09
+
+	Instance 361
+		Writing instance './RLSB/hwb100ps.sub.361.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:19.38
+
+	Instance 362
+		Writing instance './RLSB/hwb100ps.sub.362.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:19.78
+
+	Instance 363
+		Writing instance './RLSB/hwb100ps.sub.363.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:43.41
+
+	Instance 364
+		Writing instance './RLSB/hwb100ps.sub.364.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:50.20
+
+	Instance 365
+		Writing instance './RLSB/hwb100ps.sub.365.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Iteration 3 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:03:36.30
+
+	Instance 366
+		Writing instance './RLSB/hwb100ps.sub.366.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Satisfiable
+		Iteration 1 with search 3 in range [2, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:18.05
+
+	Instance 367
+		Writing instance './RLSB/hwb100ps.sub.367.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Satisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.92
+
+	Instance 368
+		Writing instance './RLSB/hwb100ps.sub.368.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [2, 8] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [6, 8] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:56.26
+
+	Instance 369
+		Writing instance './RLSB/hwb100ps.sub.369.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:21.26
+
+	Instance 370
+		Writing instance './RLSB/hwb100ps.sub.370.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 9 in range [9, 9] and 9 Int
+			Satisfiable
+		Solution found is 9
+
+		Time elapsed: 00:04:27.51
+
+	Instance 371
+		Writing instance './RLSB/hwb100ps.sub.371.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [7, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 3 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:32.10
+
+	Instance 372
+		Writing instance './RLSB/hwb100ps.sub.372.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [7, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 3 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:32.68
+
+	Instance 373
+		Writing instance './RLSB/hwb100ps.sub.373.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:22.82
+
+	Instance 374
+		Writing instance './RLSB/hwb100ps.sub.374.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [7, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 3 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:04:00.67
+
+	Instance 375
+		Writing instance './RLSB/hwb100ps.sub.375.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [7, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 3 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:46.72
+
+	Instance 376
+		Writing instance './RLSB/hwb100ps.sub.376.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:59.88
+
+	Instance 377
+		Writing instance './RLSB/hwb100ps.sub.377.als'
+		Running Alloy
+		Iteration 0 with search 8 in range [5, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 7] and 9 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:03:46.00
+
+	Instance 378
+		Writing instance './RLSB/hwb100ps.sub.378.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:25.32
+
+	Instance 379
+		Writing instance './RLSB/hwb100ps.sub.379.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:24.86
+
+	Instance 380
+		Writing instance './RLSB/hwb100ps.sub.380.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Unsatisfiable
+		Solution found is 9
+
+		Time elapsed: 00:04:28.44
+
+	Instance 381
+		Writing instance './RLSB/hwb100ps.sub.381.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:03:36.28
+
+	Instance 382
+		Writing instance './RLSB/hwb100ps.sub.382.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [3, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [3, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:19.45
+
+	Instance 383
+		Writing instance './RLSB/hwb100ps.sub.383.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [3, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [3, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:19.96
+
+	Instance 384
+		Writing instance './RLSB/hwb100ps.sub.384.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [3, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [3, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:28.93
+
+	Instance 385
+		Writing instance './RLSB/hwb100ps.sub.385.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [3, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [3, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Iteration 4 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 5 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:04:19.22
+
+	Instance 386
+		Writing instance './RLSB/hwb100ps.sub.386.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [2, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:14.46
+
+	Instance 387
+		Writing instance './RLSB/hwb100ps.sub.387.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [7, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 3 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:34.48
+
+	Instance 388
+		Writing instance './RLSB/hwb100ps.sub.388.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:19.43
+
+	Instance 389
+		Writing instance './RLSB/hwb100ps.sub.389.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [7, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 3 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:03:19.61
+
+	Instance 390
+		Writing instance './RLSB/hwb100ps.sub.390.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 10] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [7, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [7, 8] and 9 Int
+			Satisfiable
+		Iteration 3 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:44.15
+
+	Instance 391
+		Writing instance './RLSB/hwb100ps.sub.391.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:21.31
+
+	Instance 392
+		Writing instance './RLSB/hwb100ps.sub.392.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:12.03
+
+	Instance 393
+		Writing instance './RLSB/hwb100ps.sub.393.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:48.69
+
+	Instance 394
+		Writing instance './RLSB/hwb100ps.sub.394.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:05.22
+
+	Instance 395
+		Writing instance './RLSB/hwb100ps.sub.395.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:14.91
+
+	Instance 396
+		Writing instance './RLSB/hwb100ps.sub.396.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:22.06
+
+	Instance 397
+		Writing instance './RLSB/hwb100ps.sub.397.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:31.11
+
+	Instance 398
+		Writing instance './RLSB/hwb100ps.sub.398.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.81
+
+	Instance 399
+		Writing instance './RLSB/hwb100ps.sub.399.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:37.16
+
+	Instance 400
+		Writing instance './RLSB/hwb100ps.sub.400.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:21.99
+
+	Instance 401
+		Writing instance './RLSB/hwb100ps.sub.401.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:22.74
+
+	Instance 402
+		Writing instance './RLSB/hwb100ps.sub.402.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:49.00
+
+	Instance 403
+		Writing instance './RLSB/hwb100ps.sub.403.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:27.52
+
+	Instance 404
+		Writing instance './RLSB/hwb100ps.sub.404.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:24.06
+
+	Instance 405
+		Writing instance './RLSB/hwb100ps.sub.405.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:18.81
+
+	Instance 406
+		Writing instance './RLSB/hwb100ps.sub.406.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 9 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:03:02.62
+
+	Instance 407
+		Writing instance './RLSB/hwb100ps.sub.407.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:34.20
+
+	Instance 408
+		Writing instance './RLSB/hwb100ps.sub.408.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:03:38.90
+
+	Instance 409
+		Writing instance './RLSB/hwb100ps.sub.409.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:02:40.57
+
+	Instance 410
+		Writing instance './RLSB/hwb100ps.sub.410.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:45.21
+
+	Instance 411
+		Writing instance './RLSB/hwb100ps.sub.411.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [2, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:02:10.88
+
+	Instance 412
+		Writing instance './RLSB/hwb100ps.sub.412.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 9 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 9 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:02:55.22
+
+	Instance 413
+		Writing instance './RLSB/hwb100ps.sub.413.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:24.88
+
+	Instance 414
+		Writing instance './RLSB/hwb100ps.sub.414.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:21.48
+
+	Instance 415
+		Writing instance './RLSB/hwb100ps.sub.415.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:21.57
+
+	Instance 416
+		Writing instance './RLSB/hwb100ps.sub.416.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [2, 9] and 9 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [2, 5] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 9 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:02:18.78
+
+	Cumulative solution is 1571
+
+	Time elapsed: 15:44:37.50

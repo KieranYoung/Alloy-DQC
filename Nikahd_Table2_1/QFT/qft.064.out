@@ -1,0 +1,5045 @@
+Processing file './QFT/qft.064.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is 5
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 64 (3.17%)
+	Layer merging reduced the layer count by 60 (2.98%)
+	There was a total layer reduction of 124 (6.15%)
+	The layer total is 1956
+	The number of qubits is 64
+	The number of machines is 6
+	The largest gate has arity 2
+	The machine capacity is 11
+	The qubit allocation policy is 'QubitAlloc.IN_ORDER'
+	Splitting into 391 subproblems
+
+	Instance 0
+		Writing instance './QFT/qft.064.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 5 in range [0, 10] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:37.41
+
+	Instance 1
+		Writing instance './QFT/qft.064.sub.1.als'
+		Running Alloy
+		Iteration 0 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 1 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:19.26
+
+	Instance 2
+		Writing instance './QFT/qft.064.sub.2.als'
+		Running Alloy
+		Iteration 0 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 6 in range [2, 10] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [2, 5] and 9 Int
+			Satisfiable
+		Iteration 3 with search 3 in range [2, 3] and 9 Int
+			Satisfiable
+		Iteration 4 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:41.33
+
+	Instance 3
+		Writing instance './QFT/qft.064.sub.3.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:37.38
+
+	Instance 4
+		Writing instance './QFT/qft.064.sub.4.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.44
+
+	Instance 5
+		Writing instance './QFT/qft.064.sub.5.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.77
+
+	Instance 6
+		Writing instance './QFT/qft.064.sub.6.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:34.91
+
+	Instance 7
+		Writing instance './QFT/qft.064.sub.7.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.11
+
+	Instance 8
+		Writing instance './QFT/qft.064.sub.8.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:32.87
+
+	Instance 9
+		Writing instance './QFT/qft.064.sub.9.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:29.77
+
+	Instance 10
+		Writing instance './QFT/qft.064.sub.10.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:45.85
+
+	Instance 11
+		Writing instance './QFT/qft.064.sub.11.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:30.11
+
+	Instance 12
+		Writing instance './QFT/qft.064.sub.12.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:29.41
+
+	Instance 13
+		Writing instance './QFT/qft.064.sub.13.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:29.65
+
+	Instance 14
+		Writing instance './QFT/qft.064.sub.14.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.46
+
+	Instance 15
+		Writing instance './QFT/qft.064.sub.15.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.00
+
+	Instance 16
+		Writing instance './QFT/qft.064.sub.16.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [5, 10] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [5, 7] and 9 Int
+			Satisfiable
+		Iteration 4 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:02:07.72
+
+	Instance 17
+		Writing instance './QFT/qft.064.sub.17.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:06.29
+
+	Instance 18
+		Writing instance './QFT/qft.064.sub.18.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:01:16.20
+
+	Instance 19
+		Writing instance './QFT/qft.064.sub.19.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:59.29
+
+	Instance 20
+		Writing instance './QFT/qft.064.sub.20.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:01:06.36
+
+	Instance 21
+		Writing instance './QFT/qft.064.sub.21.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:30.84
+
+	Instance 22
+		Writing instance './QFT/qft.064.sub.22.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:01.33
+
+	Instance 23
+		Writing instance './QFT/qft.064.sub.23.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:08.63
+
+	Instance 24
+		Writing instance './QFT/qft.064.sub.24.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:30.97
+
+	Instance 25
+		Writing instance './QFT/qft.064.sub.25.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:01:04.32
+
+	Instance 26
+		Writing instance './QFT/qft.064.sub.26.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:10.47
+
+	Instance 27
+		Writing instance './QFT/qft.064.sub.27.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:30.83
+
+	Instance 28
+		Writing instance './QFT/qft.064.sub.28.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:01:09.04
+
+	Instance 29
+		Writing instance './QFT/qft.064.sub.29.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:01:08.47
+
+	Instance 30
+		Writing instance './QFT/qft.064.sub.30.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:01.74
+
+	Instance 31
+		Writing instance './QFT/qft.064.sub.31.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:07.07
+
+	Instance 32
+		Writing instance './QFT/qft.064.sub.32.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:01:14.89
+
+	Instance 33
+		Writing instance './QFT/qft.064.sub.33.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:01:03.28
+
+	Instance 34
+		Writing instance './QFT/qft.064.sub.34.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:29.48
+
+	Instance 35
+		Writing instance './QFT/qft.064.sub.35.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:00.49
+
+	Instance 36
+		Writing instance './QFT/qft.064.sub.36.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:05.98
+
+	Instance 37
+		Writing instance './QFT/qft.064.sub.37.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:01:24.85
+
+	Instance 38
+		Writing instance './QFT/qft.064.sub.38.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:01:05.41
+
+	Instance 39
+		Writing instance './QFT/qft.064.sub.39.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:49.70
+
+	Instance 40
+		Writing instance './QFT/qft.064.sub.40.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:01:00.31
+
+	Instance 41
+		Writing instance './QFT/qft.064.sub.41.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:56.39
+
+	Instance 42
+		Writing instance './QFT/qft.064.sub.42.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:01:04.29
+
+	Instance 43
+		Writing instance './QFT/qft.064.sub.43.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:51.59
+
+	Instance 44
+		Writing instance './QFT/qft.064.sub.44.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:56.84
+
+	Instance 45
+		Writing instance './QFT/qft.064.sub.45.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:43.73
+
+	Instance 46
+		Writing instance './QFT/qft.064.sub.46.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:58.54
+
+	Instance 47
+		Writing instance './QFT/qft.064.sub.47.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.84
+
+	Instance 48
+		Writing instance './QFT/qft.064.sub.48.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:26.14
+
+	Instance 49
+		Writing instance './QFT/qft.064.sub.49.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:01:05.51
+
+	Instance 50
+		Writing instance './QFT/qft.064.sub.50.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:52.00
+
+	Instance 51
+		Writing instance './QFT/qft.064.sub.51.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:40.78
+
+	Instance 52
+		Writing instance './QFT/qft.064.sub.52.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:44.43
+
+	Instance 53
+		Writing instance './QFT/qft.064.sub.53.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:49.59
+
+	Instance 54
+		Writing instance './QFT/qft.064.sub.54.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:49.25
+
+	Instance 55
+		Writing instance './QFT/qft.064.sub.55.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:44.55
+
+	Instance 56
+		Writing instance './QFT/qft.064.sub.56.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:51.50
+
+	Instance 57
+		Writing instance './QFT/qft.064.sub.57.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:24.54
+
+	Instance 58
+		Writing instance './QFT/qft.064.sub.58.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:58.92
+
+	Instance 59
+		Writing instance './QFT/qft.064.sub.59.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:24.70
+
+	Instance 60
+		Writing instance './QFT/qft.064.sub.60.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:53.05
+
+	Instance 61
+		Writing instance './QFT/qft.064.sub.61.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:45.79
+
+	Instance 62
+		Writing instance './QFT/qft.064.sub.62.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:48.13
+
+	Instance 63
+		Writing instance './QFT/qft.064.sub.63.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:49.85
+
+	Instance 64
+		Writing instance './QFT/qft.064.sub.64.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:50.39
+
+	Instance 65
+		Writing instance './QFT/qft.064.sub.65.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:45.12
+
+	Instance 66
+		Writing instance './QFT/qft.064.sub.66.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:49.53
+
+	Instance 67
+		Writing instance './QFT/qft.064.sub.67.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:49.93
+
+	Instance 68
+		Writing instance './QFT/qft.064.sub.68.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:01:00.19
+
+	Instance 69
+		Writing instance './QFT/qft.064.sub.69.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:46.77
+
+	Instance 70
+		Writing instance './QFT/qft.064.sub.70.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:48.87
+
+	Instance 71
+		Writing instance './QFT/qft.064.sub.71.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:44.60
+
+	Instance 72
+		Writing instance './QFT/qft.064.sub.72.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:57.00
+
+	Instance 73
+		Writing instance './QFT/qft.064.sub.73.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:47.40
+
+	Instance 74
+		Writing instance './QFT/qft.064.sub.74.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:54.18
+
+	Instance 75
+		Writing instance './QFT/qft.064.sub.75.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:45.35
+
+	Instance 76
+		Writing instance './QFT/qft.064.sub.76.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.32
+
+	Instance 77
+		Writing instance './QFT/qft.064.sub.77.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.42
+
+	Instance 78
+		Writing instance './QFT/qft.064.sub.78.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:46.19
+
+	Instance 79
+		Writing instance './QFT/qft.064.sub.79.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:44.46
+
+	Instance 80
+		Writing instance './QFT/qft.064.sub.80.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:51.07
+
+	Instance 81
+		Writing instance './QFT/qft.064.sub.81.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:46.25
+
+	Instance 82
+		Writing instance './QFT/qft.064.sub.82.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:50.87
+
+	Instance 83
+		Writing instance './QFT/qft.064.sub.83.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:56.70
+
+	Instance 84
+		Writing instance './QFT/qft.064.sub.84.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:47.59
+
+	Instance 85
+		Writing instance './QFT/qft.064.sub.85.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:45.94
+
+	Instance 86
+		Writing instance './QFT/qft.064.sub.86.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:48.38
+
+	Instance 87
+		Writing instance './QFT/qft.064.sub.87.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [1, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [1, 1] and 9 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:52.25
+
+	Instance 88
+		Writing instance './QFT/qft.064.sub.88.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:51.97
+
+	Instance 89
+		Writing instance './QFT/qft.064.sub.89.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:53.42
+
+	Instance 90
+		Writing instance './QFT/qft.064.sub.90.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.06
+
+	Instance 91
+		Writing instance './QFT/qft.064.sub.91.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:46.62
+
+	Instance 92
+		Writing instance './QFT/qft.064.sub.92.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:46.80
+
+	Instance 93
+		Writing instance './QFT/qft.064.sub.93.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:51.51
+
+	Instance 94
+		Writing instance './QFT/qft.064.sub.94.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:53.95
+
+	Instance 95
+		Writing instance './QFT/qft.064.sub.95.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:33.24
+
+	Instance 96
+		Writing instance './QFT/qft.064.sub.96.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [5, 10] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [5, 7] and 9 Int
+			Satisfiable
+		Iteration 4 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:01:50.06
+
+	Instance 97
+		Writing instance './QFT/qft.064.sub.97.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.23
+
+	Instance 98
+		Writing instance './QFT/qft.064.sub.98.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [1, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [1, 1] and 9 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:57.49
+
+	Instance 99
+		Writing instance './QFT/qft.064.sub.99.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:44.76
+
+	Instance 100
+		Writing instance './QFT/qft.064.sub.100.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:24.67
+
+	Instance 101
+		Writing instance './QFT/qft.064.sub.101.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:48.26
+
+	Instance 102
+		Writing instance './QFT/qft.064.sub.102.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.40
+
+	Instance 103
+		Writing instance './QFT/qft.064.sub.103.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:45.14
+
+	Instance 104
+		Writing instance './QFT/qft.064.sub.104.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 9 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:01:01.13
+
+	Instance 105
+		Writing instance './QFT/qft.064.sub.105.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:33.11
+
+	Instance 106
+		Writing instance './QFT/qft.064.sub.106.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:51.36
+
+	Instance 107
+		Writing instance './QFT/qft.064.sub.107.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:44.23
+
+	Instance 108
+		Writing instance './QFT/qft.064.sub.108.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:44.84
+
+	Instance 109
+		Writing instance './QFT/qft.064.sub.109.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:31.62
+
+	Instance 110
+		Writing instance './QFT/qft.064.sub.110.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:55.63
+
+	Instance 111
+		Writing instance './QFT/qft.064.sub.111.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.18
+
+	Instance 112
+		Writing instance './QFT/qft.064.sub.112.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.50
+
+	Instance 113
+		Writing instance './QFT/qft.064.sub.113.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:44.16
+
+	Instance 114
+		Writing instance './QFT/qft.064.sub.114.als'
+		Running Alloy
+		Iteration 0 with search 4 in range [0, 7] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.41
+
+	Instance 115
+		Writing instance './QFT/qft.064.sub.115.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:38.50
+
+	Instance 116
+		Writing instance './QFT/qft.064.sub.116.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:54.25
+
+	Instance 117
+		Writing instance './QFT/qft.064.sub.117.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:50.97
+
+	Instance 118
+		Writing instance './QFT/qft.064.sub.118.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.72
+
+	Instance 119
+		Writing instance './QFT/qft.064.sub.119.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:44.96
+
+	Instance 120
+		Writing instance './QFT/qft.064.sub.120.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:44.05
+
+	Instance 121
+		Writing instance './QFT/qft.064.sub.121.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [1, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [1, 1] and 9 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:46.88
+
+	Instance 122
+		Writing instance './QFT/qft.064.sub.122.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:46.77
+
+	Instance 123
+		Writing instance './QFT/qft.064.sub.123.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.67
+
+	Instance 124
+		Writing instance './QFT/qft.064.sub.124.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:38.41
+
+	Instance 125
+		Writing instance './QFT/qft.064.sub.125.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:50.85
+
+	Instance 126
+		Writing instance './QFT/qft.064.sub.126.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.88
+
+	Instance 127
+		Writing instance './QFT/qft.064.sub.127.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:34.39
+
+	Instance 128
+		Writing instance './QFT/qft.064.sub.128.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:44.94
+
+	Instance 129
+		Writing instance './QFT/qft.064.sub.129.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:45.92
+
+	Instance 130
+		Writing instance './QFT/qft.064.sub.130.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:36.32
+
+	Instance 131
+		Writing instance './QFT/qft.064.sub.131.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.95
+
+	Instance 132
+		Writing instance './QFT/qft.064.sub.132.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:35.97
+
+	Instance 133
+		Writing instance './QFT/qft.064.sub.133.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:46.40
+
+	Instance 134
+		Writing instance './QFT/qft.064.sub.134.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.02
+
+	Instance 135
+		Writing instance './QFT/qft.064.sub.135.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:48.87
+
+	Instance 136
+		Writing instance './QFT/qft.064.sub.136.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:37.78
+
+	Instance 137
+		Writing instance './QFT/qft.064.sub.137.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:39.81
+
+	Instance 138
+		Writing instance './QFT/qft.064.sub.138.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.13
+
+	Instance 139
+		Writing instance './QFT/qft.064.sub.139.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:43.16
+
+	Instance 140
+		Writing instance './QFT/qft.064.sub.140.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.59
+
+	Instance 141
+		Writing instance './QFT/qft.064.sub.141.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:38.83
+
+	Instance 142
+		Writing instance './QFT/qft.064.sub.142.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:48.81
+
+	Instance 143
+		Writing instance './QFT/qft.064.sub.143.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.67
+
+	Instance 144
+		Writing instance './QFT/qft.064.sub.144.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:48.27
+
+	Instance 145
+		Writing instance './QFT/qft.064.sub.145.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:40.43
+
+	Instance 146
+		Writing instance './QFT/qft.064.sub.146.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.92
+
+	Instance 147
+		Writing instance './QFT/qft.064.sub.147.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:39.42
+
+	Instance 148
+		Writing instance './QFT/qft.064.sub.148.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:48.08
+
+	Instance 149
+		Writing instance './QFT/qft.064.sub.149.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.67
+
+	Instance 150
+		Writing instance './QFT/qft.064.sub.150.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:43.65
+
+	Instance 151
+		Writing instance './QFT/qft.064.sub.151.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.51
+
+	Instance 152
+		Writing instance './QFT/qft.064.sub.152.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.35
+
+	Instance 153
+		Writing instance './QFT/qft.064.sub.153.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.67
+
+	Instance 154
+		Writing instance './QFT/qft.064.sub.154.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.23
+
+	Instance 155
+		Writing instance './QFT/qft.064.sub.155.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.69
+
+	Instance 156
+		Writing instance './QFT/qft.064.sub.156.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:48.33
+
+	Instance 157
+		Writing instance './QFT/qft.064.sub.157.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:43.25
+
+	Instance 158
+		Writing instance './QFT/qft.064.sub.158.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:43.68
+
+	Instance 159
+		Writing instance './QFT/qft.064.sub.159.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.70
+
+	Instance 160
+		Writing instance './QFT/qft.064.sub.160.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.56
+
+	Instance 161
+		Writing instance './QFT/qft.064.sub.161.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.70
+
+	Instance 162
+		Writing instance './QFT/qft.064.sub.162.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.02
+
+	Instance 163
+		Writing instance './QFT/qft.064.sub.163.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.45
+
+	Instance 164
+		Writing instance './QFT/qft.064.sub.164.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.81
+
+	Instance 165
+		Writing instance './QFT/qft.064.sub.165.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.18
+
+	Instance 166
+		Writing instance './QFT/qft.064.sub.166.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:39.21
+
+	Instance 167
+		Writing instance './QFT/qft.064.sub.167.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:47.54
+
+	Instance 168
+		Writing instance './QFT/qft.064.sub.168.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.62
+
+	Instance 169
+		Writing instance './QFT/qft.064.sub.169.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.11
+
+	Instance 170
+		Writing instance './QFT/qft.064.sub.170.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:25.63
+
+	Instance 171
+		Writing instance './QFT/qft.064.sub.171.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:25.06
+
+	Instance 172
+		Writing instance './QFT/qft.064.sub.172.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.66
+
+	Instance 173
+		Writing instance './QFT/qft.064.sub.173.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.60
+
+	Instance 174
+		Writing instance './QFT/qft.064.sub.174.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:28.74
+
+	Instance 175
+		Writing instance './QFT/qft.064.sub.175.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:34.10
+
+	Instance 176
+		Writing instance './QFT/qft.064.sub.176.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:38.21
+
+	Instance 177
+		Writing instance './QFT/qft.064.sub.177.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:48.64
+
+	Instance 178
+		Writing instance './QFT/qft.064.sub.178.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.83
+
+	Instance 179
+		Writing instance './QFT/qft.064.sub.179.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.84
+
+	Instance 180
+		Writing instance './QFT/qft.064.sub.180.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:45.21
+
+	Instance 181
+		Writing instance './QFT/qft.064.sub.181.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:24.04
+
+	Instance 182
+		Writing instance './QFT/qft.064.sub.182.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.69
+
+	Instance 183
+		Writing instance './QFT/qft.064.sub.183.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.53
+
+	Instance 184
+		Writing instance './QFT/qft.064.sub.184.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:33.40
+
+	Instance 185
+		Writing instance './QFT/qft.064.sub.185.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.99
+
+	Instance 186
+		Writing instance './QFT/qft.064.sub.186.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.74
+
+	Instance 187
+		Writing instance './QFT/qft.064.sub.187.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.66
+
+	Instance 188
+		Writing instance './QFT/qft.064.sub.188.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:38.77
+
+	Instance 189
+		Writing instance './QFT/qft.064.sub.189.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:24.63
+
+	Instance 190
+		Writing instance './QFT/qft.064.sub.190.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.64
+
+	Instance 191
+		Writing instance './QFT/qft.064.sub.191.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:45.58
+
+	Instance 192
+		Writing instance './QFT/qft.064.sub.192.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.67
+
+	Instance 193
+		Writing instance './QFT/qft.064.sub.193.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.42
+
+	Instance 194
+		Writing instance './QFT/qft.064.sub.194.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:34.53
+
+	Instance 195
+		Writing instance './QFT/qft.064.sub.195.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.95
+
+	Instance 196
+		Writing instance './QFT/qft.064.sub.196.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:34.83
+
+	Instance 197
+		Writing instance './QFT/qft.064.sub.197.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.70
+
+	Instance 198
+		Writing instance './QFT/qft.064.sub.198.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:33.60
+
+	Instance 199
+		Writing instance './QFT/qft.064.sub.199.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.61
+
+	Instance 200
+		Writing instance './QFT/qft.064.sub.200.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.71
+
+	Instance 201
+		Writing instance './QFT/qft.064.sub.201.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.62
+
+	Instance 202
+		Writing instance './QFT/qft.064.sub.202.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.45
+
+	Instance 203
+		Writing instance './QFT/qft.064.sub.203.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:40.48
+
+	Instance 204
+		Writing instance './QFT/qft.064.sub.204.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.72
+
+	Instance 205
+		Writing instance './QFT/qft.064.sub.205.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:40.05
+
+	Instance 206
+		Writing instance './QFT/qft.064.sub.206.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:49.24
+
+	Instance 207
+		Writing instance './QFT/qft.064.sub.207.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:33.81
+
+	Instance 208
+		Writing instance './QFT/qft.064.sub.208.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.55
+
+	Instance 209
+		Writing instance './QFT/qft.064.sub.209.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:36.77
+
+	Instance 210
+		Writing instance './QFT/qft.064.sub.210.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:39.74
+
+	Instance 211
+		Writing instance './QFT/qft.064.sub.211.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:48.65
+
+	Instance 212
+		Writing instance './QFT/qft.064.sub.212.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:35.19
+
+	Instance 213
+		Writing instance './QFT/qft.064.sub.213.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.65
+
+	Instance 214
+		Writing instance './QFT/qft.064.sub.214.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.64
+
+	Instance 215
+		Writing instance './QFT/qft.064.sub.215.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.03
+
+	Instance 216
+		Writing instance './QFT/qft.064.sub.216.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.78
+
+	Instance 217
+		Writing instance './QFT/qft.064.sub.217.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:46.01
+
+	Instance 218
+		Writing instance './QFT/qft.064.sub.218.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:46.78
+
+	Instance 219
+		Writing instance './QFT/qft.064.sub.219.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:33.32
+
+	Instance 220
+		Writing instance './QFT/qft.064.sub.220.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.36
+
+	Instance 221
+		Writing instance './QFT/qft.064.sub.221.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.69
+
+	Instance 222
+		Writing instance './QFT/qft.064.sub.222.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:37.24
+
+	Instance 223
+		Writing instance './QFT/qft.064.sub.223.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:40.14
+
+	Instance 224
+		Writing instance './QFT/qft.064.sub.224.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.81
+
+	Instance 225
+		Writing instance './QFT/qft.064.sub.225.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.98
+
+	Instance 226
+		Writing instance './QFT/qft.064.sub.226.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.23
+
+	Instance 227
+		Writing instance './QFT/qft.064.sub.227.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.53
+
+	Instance 228
+		Writing instance './QFT/qft.064.sub.228.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.45
+
+	Instance 229
+		Writing instance './QFT/qft.064.sub.229.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.66
+
+	Instance 230
+		Writing instance './QFT/qft.064.sub.230.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.37
+
+	Instance 231
+		Writing instance './QFT/qft.064.sub.231.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.51
+
+	Instance 232
+		Writing instance './QFT/qft.064.sub.232.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:24.33
+
+	Instance 233
+		Writing instance './QFT/qft.064.sub.233.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:24.62
+
+	Instance 234
+		Writing instance './QFT/qft.064.sub.234.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [4, 12] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [4, 7] and 9 Int
+			Satisfiable
+		Iteration 4 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 5 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:01:40.32
+
+	Instance 235
+		Writing instance './QFT/qft.064.sub.235.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.01
+
+	Instance 236
+		Writing instance './QFT/qft.064.sub.236.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:36.76
+
+	Instance 237
+		Writing instance './QFT/qft.064.sub.237.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.88
+
+	Instance 238
+		Writing instance './QFT/qft.064.sub.238.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.65
+
+	Instance 239
+		Writing instance './QFT/qft.064.sub.239.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.43
+
+	Instance 240
+		Writing instance './QFT/qft.064.sub.240.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.64
+
+	Instance 241
+		Writing instance './QFT/qft.064.sub.241.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.23
+
+	Instance 242
+		Writing instance './QFT/qft.064.sub.242.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.57
+
+	Instance 243
+		Writing instance './QFT/qft.064.sub.243.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:34.80
+
+	Instance 244
+		Writing instance './QFT/qft.064.sub.244.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.66
+
+	Instance 245
+		Writing instance './QFT/qft.064.sub.245.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.55
+
+	Instance 246
+		Writing instance './QFT/qft.064.sub.246.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:28.33
+
+	Instance 247
+		Writing instance './QFT/qft.064.sub.247.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.85
+
+	Instance 248
+		Writing instance './QFT/qft.064.sub.248.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.69
+
+	Instance 249
+		Writing instance './QFT/qft.064.sub.249.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:28.72
+
+	Instance 250
+		Writing instance './QFT/qft.064.sub.250.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:26.87
+
+	Instance 251
+		Writing instance './QFT/qft.064.sub.251.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.70
+
+	Instance 252
+		Writing instance './QFT/qft.064.sub.252.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.87
+
+	Instance 253
+		Writing instance './QFT/qft.064.sub.253.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.53
+
+	Instance 254
+		Writing instance './QFT/qft.064.sub.254.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.00
+
+	Instance 255
+		Writing instance './QFT/qft.064.sub.255.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.81
+
+	Instance 256
+		Writing instance './QFT/qft.064.sub.256.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:28.20
+
+	Instance 257
+		Writing instance './QFT/qft.064.sub.257.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.63
+
+	Instance 258
+		Writing instance './QFT/qft.064.sub.258.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:23.95
+
+	Instance 259
+		Writing instance './QFT/qft.064.sub.259.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:31.26
+
+	Instance 260
+		Writing instance './QFT/qft.064.sub.260.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:46.76
+
+	Instance 261
+		Writing instance './QFT/qft.064.sub.261.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:32.66
+
+	Instance 262
+		Writing instance './QFT/qft.064.sub.262.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.72
+
+	Instance 263
+		Writing instance './QFT/qft.064.sub.263.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:26.13
+
+	Instance 264
+		Writing instance './QFT/qft.064.sub.264.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.67
+
+	Instance 265
+		Writing instance './QFT/qft.064.sub.265.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:47.86
+
+	Instance 266
+		Writing instance './QFT/qft.064.sub.266.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:43.22
+
+	Instance 267
+		Writing instance './QFT/qft.064.sub.267.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:43.34
+
+	Instance 268
+		Writing instance './QFT/qft.064.sub.268.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.79
+
+	Instance 269
+		Writing instance './QFT/qft.064.sub.269.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.83
+
+	Instance 270
+		Writing instance './QFT/qft.064.sub.270.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:50.95
+
+	Instance 271
+		Writing instance './QFT/qft.064.sub.271.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.73
+
+	Instance 272
+		Writing instance './QFT/qft.064.sub.272.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:35.52
+
+	Instance 273
+		Writing instance './QFT/qft.064.sub.273.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.06
+
+	Instance 274
+		Writing instance './QFT/qft.064.sub.274.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.26
+
+	Instance 275
+		Writing instance './QFT/qft.064.sub.275.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:40.00
+
+	Instance 276
+		Writing instance './QFT/qft.064.sub.276.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.68
+
+	Instance 277
+		Writing instance './QFT/qft.064.sub.277.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:46.91
+
+	Instance 278
+		Writing instance './QFT/qft.064.sub.278.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.71
+
+	Instance 279
+		Writing instance './QFT/qft.064.sub.279.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:43.05
+
+	Instance 280
+		Writing instance './QFT/qft.064.sub.280.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.77
+
+	Instance 281
+		Writing instance './QFT/qft.064.sub.281.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.93
+
+	Instance 282
+		Writing instance './QFT/qft.064.sub.282.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.85
+
+	Instance 283
+		Writing instance './QFT/qft.064.sub.283.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:38.94
+
+	Instance 284
+		Writing instance './QFT/qft.064.sub.284.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.22
+
+	Instance 285
+		Writing instance './QFT/qft.064.sub.285.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 6] and 9 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 9 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:43.26
+
+	Instance 286
+		Writing instance './QFT/qft.064.sub.286.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:44.93
+
+	Instance 287
+		Writing instance './QFT/qft.064.sub.287.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.13
+
+	Instance 288
+		Writing instance './QFT/qft.064.sub.288.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:41.23
+
+	Instance 289
+		Writing instance './QFT/qft.064.sub.289.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.36
+
+	Instance 290
+		Writing instance './QFT/qft.064.sub.290.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.03
+
+	Instance 291
+		Writing instance './QFT/qft.064.sub.291.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:41.89
+
+	Instance 292
+		Writing instance './QFT/qft.064.sub.292.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.45
+
+	Instance 293
+		Writing instance './QFT/qft.064.sub.293.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.55
+
+	Instance 294
+		Writing instance './QFT/qft.064.sub.294.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.67
+
+	Instance 295
+		Writing instance './QFT/qft.064.sub.295.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:41.06
+
+	Instance 296
+		Writing instance './QFT/qft.064.sub.296.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 8 in range [5, 10] and 9 Int
+			Satisfiable
+		Iteration 3 with search 6 in range [5, 7] and 9 Int
+			Satisfiable
+		Iteration 4 with search 5 in range [5, 5] and 9 Int
+			Satisfiable
+		Solution found is 5
+
+		Time elapsed: 00:01:30.19
+
+	Instance 297
+		Writing instance './QFT/qft.064.sub.297.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.67
+
+	Instance 298
+		Writing instance './QFT/qft.064.sub.298.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.16
+
+	Instance 299
+		Writing instance './QFT/qft.064.sub.299.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:33.69
+
+	Instance 300
+		Writing instance './QFT/qft.064.sub.300.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.77
+
+	Instance 301
+		Writing instance './QFT/qft.064.sub.301.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.70
+
+	Instance 302
+		Writing instance './QFT/qft.064.sub.302.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:41.73
+
+	Instance 303
+		Writing instance './QFT/qft.064.sub.303.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.94
+
+	Instance 304
+		Writing instance './QFT/qft.064.sub.304.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.00
+
+	Instance 305
+		Writing instance './QFT/qft.064.sub.305.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:35.99
+
+	Instance 306
+		Writing instance './QFT/qft.064.sub.306.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 6] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:35.83
+
+	Instance 307
+		Writing instance './QFT/qft.064.sub.307.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:40.73
+
+	Instance 308
+		Writing instance './QFT/qft.064.sub.308.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:28.10
+
+	Instance 309
+		Writing instance './QFT/qft.064.sub.309.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:43.80
+
+	Instance 310
+		Writing instance './QFT/qft.064.sub.310.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.67
+
+	Instance 311
+		Writing instance './QFT/qft.064.sub.311.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.42
+
+	Instance 312
+		Writing instance './QFT/qft.064.sub.312.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:36.91
+
+	Instance 313
+		Writing instance './QFT/qft.064.sub.313.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.57
+
+	Instance 314
+		Writing instance './QFT/qft.064.sub.314.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:40.83
+
+	Instance 315
+		Writing instance './QFT/qft.064.sub.315.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:32.72
+
+	Instance 316
+		Writing instance './QFT/qft.064.sub.316.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.13
+
+	Instance 317
+		Writing instance './QFT/qft.064.sub.317.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:40.27
+
+	Instance 318
+		Writing instance './QFT/qft.064.sub.318.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:41.00
+
+	Instance 319
+		Writing instance './QFT/qft.064.sub.319.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:38.81
+
+	Instance 320
+		Writing instance './QFT/qft.064.sub.320.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:39.96
+
+	Instance 321
+		Writing instance './QFT/qft.064.sub.321.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.29
+
+	Instance 322
+		Writing instance './QFT/qft.064.sub.322.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:42.75
+
+	Instance 323
+		Writing instance './QFT/qft.064.sub.323.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.82
+
+	Instance 324
+		Writing instance './QFT/qft.064.sub.324.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:39.76
+
+	Instance 325
+		Writing instance './QFT/qft.064.sub.325.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:44.02
+
+	Instance 326
+		Writing instance './QFT/qft.064.sub.326.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:36.71
+
+	Instance 327
+		Writing instance './QFT/qft.064.sub.327.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.99
+
+	Instance 328
+		Writing instance './QFT/qft.064.sub.328.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.69
+
+	Instance 329
+		Writing instance './QFT/qft.064.sub.329.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:32.27
+
+	Instance 330
+		Writing instance './QFT/qft.064.sub.330.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.58
+
+	Instance 331
+		Writing instance './QFT/qft.064.sub.331.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.66
+
+	Instance 332
+		Writing instance './QFT/qft.064.sub.332.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:34.56
+
+	Instance 333
+		Writing instance './QFT/qft.064.sub.333.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.15
+
+	Instance 334
+		Writing instance './QFT/qft.064.sub.334.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.71
+
+	Instance 335
+		Writing instance './QFT/qft.064.sub.335.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.19
+
+	Instance 336
+		Writing instance './QFT/qft.064.sub.336.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:33.69
+
+	Instance 337
+		Writing instance './QFT/qft.064.sub.337.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:38.43
+
+	Instance 338
+		Writing instance './QFT/qft.064.sub.338.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:39.80
+
+	Instance 339
+		Writing instance './QFT/qft.064.sub.339.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:26.36
+
+	Instance 340
+		Writing instance './QFT/qft.064.sub.340.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:40.56
+
+	Instance 341
+		Writing instance './QFT/qft.064.sub.341.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.02
+
+	Instance 342
+		Writing instance './QFT/qft.064.sub.342.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:36.21
+
+	Instance 343
+		Writing instance './QFT/qft.064.sub.343.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.68
+
+	Instance 344
+		Writing instance './QFT/qft.064.sub.344.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:27.37
+
+	Instance 345
+		Writing instance './QFT/qft.064.sub.345.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:41.56
+
+	Instance 346
+		Writing instance './QFT/qft.064.sub.346.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.65
+
+	Instance 347
+		Writing instance './QFT/qft.064.sub.347.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:37.68
+
+	Instance 348
+		Writing instance './QFT/qft.064.sub.348.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.83
+
+	Instance 349
+		Writing instance './QFT/qft.064.sub.349.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:40.91
+
+	Instance 350
+		Writing instance './QFT/qft.064.sub.350.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.67
+
+	Instance 351
+		Writing instance './QFT/qft.064.sub.351.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:34.67
+
+	Instance 352
+		Writing instance './QFT/qft.064.sub.352.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:44.40
+
+	Instance 353
+		Writing instance './QFT/qft.064.sub.353.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:34.57
+
+	Instance 354
+		Writing instance './QFT/qft.064.sub.354.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:35.65
+
+	Instance 355
+		Writing instance './QFT/qft.064.sub.355.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.69
+
+	Instance 356
+		Writing instance './QFT/qft.064.sub.356.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:41.11
+
+	Instance 357
+		Writing instance './QFT/qft.064.sub.357.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:31.27
+
+	Instance 358
+		Writing instance './QFT/qft.064.sub.358.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:42.21
+
+	Instance 359
+		Writing instance './QFT/qft.064.sub.359.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.33
+
+	Instance 360
+		Writing instance './QFT/qft.064.sub.360.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:42.23
+
+	Instance 361
+		Writing instance './QFT/qft.064.sub.361.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:39.66
+
+	Instance 362
+		Writing instance './QFT/qft.064.sub.362.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.71
+
+	Instance 363
+		Writing instance './QFT/qft.064.sub.363.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:47.12
+
+	Instance 364
+		Writing instance './QFT/qft.064.sub.364.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.66
+
+	Instance 365
+		Writing instance './QFT/qft.064.sub.365.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:32.33
+
+	Instance 366
+		Writing instance './QFT/qft.064.sub.366.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:41.59
+
+	Instance 367
+		Writing instance './QFT/qft.064.sub.367.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.64
+
+	Instance 368
+		Writing instance './QFT/qft.064.sub.368.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:36.42
+
+	Instance 369
+		Writing instance './QFT/qft.064.sub.369.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:43.88
+
+	Instance 370
+		Writing instance './QFT/qft.064.sub.370.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:42.09
+
+	Instance 371
+		Writing instance './QFT/qft.064.sub.371.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.63
+
+	Instance 372
+		Writing instance './QFT/qft.064.sub.372.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 9 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:37.79
+
+	Instance 373
+		Writing instance './QFT/qft.064.sub.373.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:39.65
+
+	Instance 374
+		Writing instance './QFT/qft.064.sub.374.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:27.84
+
+	Instance 375
+		Writing instance './QFT/qft.064.sub.375.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:35.65
+
+	Instance 376
+		Writing instance './QFT/qft.064.sub.376.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Satisfiable
+		Solution found is 0
+
+		Time elapsed: 00:00:23.59
+
+	Instance 377
+		Writing instance './QFT/qft.064.sub.377.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:24.00
+
+	Instance 378
+		Writing instance './QFT/qft.064.sub.378.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:31.31
+
+	Instance 379
+		Writing instance './QFT/qft.064.sub.379.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:26.83
+
+	Instance 380
+		Writing instance './QFT/qft.064.sub.380.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:35.78
+
+	Instance 381
+		Writing instance './QFT/qft.064.sub.381.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 3] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:32.22
+
+	Instance 382
+		Writing instance './QFT/qft.064.sub.382.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:32.32
+
+	Instance 383
+		Writing instance './QFT/qft.064.sub.383.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:40.80
+
+	Instance 384
+		Writing instance './QFT/qft.064.sub.384.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:24.35
+
+	Instance 385
+		Writing instance './QFT/qft.064.sub.385.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Satisfiable
+		Iteration 2 with search 0 in range [0, 0] and 9 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:30.12
+
+	Instance 386
+		Writing instance './QFT/qft.064.sub.386.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:28.09
+
+	Instance 387
+		Writing instance './QFT/qft.064.sub.387.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:29.54
+
+	Instance 388
+		Writing instance './QFT/qft.064.sub.388.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:29.59
+
+	Instance 389
+		Writing instance './QFT/qft.064.sub.389.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 9 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 9 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:41.12
+
+	Instance 390
+		Writing instance './QFT/qft.064.sub.390.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 9 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 1] and 9 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:24.22
+
+	Cumulative solution is 743
+
+	Time elapsed: 04:24:18.33

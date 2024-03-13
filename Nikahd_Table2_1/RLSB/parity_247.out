@@ -1,0 +1,39 @@
+Processing file './RLSB/parity_247.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is None
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 16 (100.00%)
+	Layer merging reduced the layer count by 0 (0.00%)
+	There was a total layer reduction of 16 (100.00%)
+	The layer total is 17
+	The number of qubits is 17
+	The number of machines is 3
+	The largest gate has arity 2
+	The machine capacity is 6
+	The qubit allocation policy is 'QubitAlloc.RANDOM'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Writing instance './RLSB/parity_247.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 16 in range [0, 32] and 8 Int
+			Satisfiable
+		Iteration 1 with search 8 in range [0, 15] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 12 in range [9, 15] and 8 Int
+			Satisfiable
+		Iteration 3 with search 10 in range [9, 11] and 8 Int
+			Satisfiable
+		Iteration 4 with search 9 in range [9, 9] and 8 Int
+			Unsatisfiable
+		Solution found is 10
+
+		Time elapsed: 00:00:44.19
+
+	Cumulative solution is 10
+
+	Time elapsed: 00:00:44.22

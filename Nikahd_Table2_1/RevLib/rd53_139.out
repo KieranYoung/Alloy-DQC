@@ -1,0 +1,41 @@
+Processing file './RevLib/rd53_139.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is None
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 0 (0.00%)
+	Layer merging reduced the layer count by 2 (16.67%)
+	There was a total layer reduction of 2 (16.67%)
+	The layer total is 10
+	The number of qubits is 8
+	The number of machines is 2
+	The largest gate has arity 3
+	The machine capacity is 4
+	The qubit allocation policy is 'QubitAlloc.RANDOM'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Writing instance './RevLib/rd53_139.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 20 in range [0, 40] and 8 Int
+			Satisfiable
+		Iteration 1 with search 10 in range [0, 19] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 15 in range [11, 19] and 8 Int
+			Satisfiable
+		Iteration 3 with search 13 in range [11, 14] and 8 Int
+			Satisfiable
+		Iteration 4 with search 12 in range [11, 12] and 8 Int
+			Satisfiable
+		Iteration 5 with search 11 in range [11, 11] and 8 Int
+			Unsatisfiable
+		Solution found is 12
+
+		Time elapsed: 00:00:02.12
+
+	Cumulative solution is 12
+
+	Time elapsed: 00:00:02.14

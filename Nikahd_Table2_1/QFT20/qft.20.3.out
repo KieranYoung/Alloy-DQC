@@ -1,0 +1,252 @@
+Processing file './QFT20/qft.20.3.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is 10
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 20 (10.53%)
+	Layer merging reduced the layer count by 16 (8.42%)
+	There was a total layer reduction of 36 (18.95%)
+	The layer total is 174
+	The number of qubits is 20
+	The number of machines is 3
+	The largest gate has arity 2
+	The machine capacity is 7
+	The qubit allocation policy is 'QubitAlloc.IN_ORDER'
+	Splitting into 18 subproblems
+
+	Instance 0
+		Writing instance './QFT20/qft.20.3.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 10 in range [0, 20] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [0, 9] and 8 Int
+			Satisfiable
+		Iteration 2 with search 2 in range [0, 4] and 8 Int
+			Satisfiable
+		Iteration 3 with search 1 in range [0, 1] and 8 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:04.43
+
+	Instance 1
+		Writing instance './QFT20/qft.20.3.sub.1.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [1, 3] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 3 in range [3, 3] and 8 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:01.73
+
+	Instance 2
+		Writing instance './QFT20/qft.20.3.sub.2.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [1, 4] and 8 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 2] and 8 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:01.83
+
+	Instance 3
+		Writing instance './QFT20/qft.20.3.sub.3.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [1, 4] and 8 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 2] and 8 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [1, 1] and 8 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:02.49
+
+	Instance 4
+		Writing instance './QFT20/qft.20.3.sub.4.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [1, 4] and 8 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 2] and 8 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:01.63
+
+	Instance 5
+		Writing instance './QFT20/qft.20.3.sub.5.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [1, 4] and 8 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 2] and 8 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [1, 1] and 8 Int
+			Satisfiable
+		Iteration 3 with search 0 in range [0, 0] and 8 Int
+			Unsatisfiable
+		Solution found is 1
+
+		Time elapsed: 00:00:02.85
+
+	Instance 6
+		Writing instance './QFT20/qft.20.3.sub.6.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 8 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 8 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:02.53
+
+	Instance 7
+		Writing instance './QFT20/qft.20.3.sub.7.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 8 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 8 Int
+			Satisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:02.56
+
+	Instance 8
+		Writing instance './QFT20/qft.20.3.sub.8.als'
+		Running Alloy
+		Iteration 0 with search 2 in range [0, 4] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 4 in range [3, 4] and 8 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 8 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:02.55
+
+	Instance 9
+		Writing instance './QFT20/qft.20.3.sub.9.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 8 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 8 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:02.20
+
+	Instance 10
+		Writing instance './QFT20/qft.20.3.sub.10.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 8 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 8 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:02.68
+
+	Instance 11
+		Writing instance './QFT20/qft.20.3.sub.11.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 8 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 8 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:02.14
+
+	Instance 12
+		Writing instance './QFT20/qft.20.3.sub.12.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 8 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 8 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:02.12
+
+	Instance 13
+		Writing instance './QFT20/qft.20.3.sub.13.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 8 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 8 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:02.19
+
+	Instance 14
+		Writing instance './QFT20/qft.20.3.sub.14.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 8 Int
+			Satisfiable
+		Iteration 1 with search 1 in range [0, 2] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 2 in range [2, 2] and 8 Int
+			Satisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:02.14
+
+	Instance 15
+		Writing instance './QFT20/qft.20.3.sub.15.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [0, 5] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 5 in range [4, 5] and 8 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 8 Int
+			Satisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:02.59
+
+	Instance 16
+		Writing instance './QFT20/qft.20.3.sub.16.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [1, 5] and 8 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 2] and 8 Int
+			Satisfiable
+		Iteration 2 with search 1 in range [1, 1] and 8 Int
+			Unsatisfiable
+		Solution found is 2
+
+		Time elapsed: 00:00:02.23
+
+	Instance 17
+		Writing instance './QFT20/qft.20.3.sub.17.als'
+		Running Alloy
+		Iteration 0 with search 3 in range [1, 5] and 8 Int
+			Satisfiable
+		Iteration 1 with search 2 in range [1, 2] and 8 Int
+			Unsatisfiable
+		Solution found is 3
+
+		Time elapsed: 00:00:01.33
+
+	Cumulative solution is 49
+
+	Time elapsed: 00:00:42.31

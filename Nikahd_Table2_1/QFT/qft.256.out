@@ -1,0 +1,23 @@
+Processing file './QFT/qft.256.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is 1
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 256 (0.78%)
+	Layer merging reduced the layer count by 252 (0.77%)
+	There was a total layer reduction of 508 (1.56%)
+	The layer total is 32388
+	The number of qubits is 256
+	The number of machines is 12
+	The largest gate has arity 2
+	The machine capacity is 22
+	The qubit allocation policy is 'QubitAlloc.IN_ORDER'
+	Splitting into 32387 subproblems
+
+	Instance 0
+		Writing instance './QFT/qft.256.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 1 in range [0, 2] and 11 Int

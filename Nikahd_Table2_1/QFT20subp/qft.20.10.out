@@ -1,0 +1,243 @@
+Processing file './QFT20subp//qft.20.10.als'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is 10
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 28GB
+    
+	Splitting into 18 subproblems
+
+	Instance 0
+		Running Alloy
+		Iteration 0 with search 10 in range [0, 20] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [0, 9] and 8 Int
+			Satisfiable
+		Iteration 2 with search 2 in range [0, 4] and 8 Int
+			Unsatisfiable
+		Iteration 3 with search 4 in range [3, 4] and 8 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:28.82
+
+	Instance 1
+		Running Alloy
+		Iteration 0 with search 5 in range [4, 6] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 6 in range [6, 6] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 15 in range [7, 22] and 8 Int
+			Satisfiable
+		Iteration 3 with search 11 in range [7, 14] and 8 Int
+			Satisfiable
+		Iteration 4 with search 9 in range [7, 10] and 8 Int
+			Satisfiable
+		Iteration 5 with search 8 in range [7, 8] and 8 Int
+			Satisfiable
+		Iteration 6 with search 7 in range [7, 7] and 8 Int
+			Unsatisfiable
+		Solution found is 8
+
+		Time elapsed: 00:01:14.02
+
+	Instance 2
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 9] and 8 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 8 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:00:17.83
+
+	Instance 3
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 8 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:00:13.72
+
+	Instance 4
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 9] and 8 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 8 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:00:35.49
+
+	Instance 5
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 9 in range [8, 9] and 8 Int
+			Satisfiable
+		Iteration 2 with search 8 in range [8, 8] and 8 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:00:15.77
+
+	Instance 6
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 8 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:06.40
+
+	Instance 7
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 8 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:15.54
+
+	Instance 8
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 8 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:15.89
+
+	Instance 9
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 8 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:28.47
+
+	Instance 10
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 8 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:14.09
+
+	Instance 11
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 8 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:09.74
+
+	Instance 12
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 6 in range [6, 6] and 8 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:10.98
+
+	Instance 13
+		Running Alloy
+		Iteration 0 with search 7 in range [4, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 5 in range [4, 6] and 8 Int
+			Satisfiable
+		Iteration 2 with search 4 in range [4, 4] and 8 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 3] and 8 Int
+			Unsatisfiable
+		Iteration 4 with search 3 in range [3, 3] and 8 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:10.82
+
+	Instance 14
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 8 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:12.59
+
+	Instance 15
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 9] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [7, 9] and 8 Int
+			Satisfiable
+		Iteration 2 with search 7 in range [7, 7] and 8 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:00:22.10
+
+	Instance 16
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 8 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 8 Int
+			Satisfiable
+		Iteration 2 with search 3 in range [3, 3] and 8 Int
+			Unsatisfiable
+		Solution found is 4
+
+		Time elapsed: 00:00:05.22
+
+	Instance 17
+		Running Alloy
+		Iteration 0 with search 6 in range [3, 8] and 8 Int
+			Satisfiable
+		Iteration 1 with search 4 in range [3, 5] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 5 in range [5, 5] and 8 Int
+			Unsatisfiable
+		Solution found is 6
+
+		Time elapsed: 00:00:05.28
+
+	Cumulative solution is 112
+
+	Time elapsed: 00:05:42.87

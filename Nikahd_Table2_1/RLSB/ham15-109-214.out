@@ -1,0 +1,121 @@
+Processing file './RLSB/ham15-109-214.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is 20
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 0 (0.00%)
+	Layer merging reduced the layer count by 19 (17.43%)
+	There was a total layer reduction of 19 (17.43%)
+	The layer total is 90
+	The number of qubits is 15
+	The number of machines is 3
+	The largest gate has arity 5
+	The machine capacity is 5
+	The qubit allocation policy is 'QubitAlloc.RANDOM'
+	Splitting into 5 subproblems
+
+	Instance 0
+		Writing instance './RLSB/ham15-109-214.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 29 in range [0, 58] and 8 Int
+			Satisfiable
+		Iteration 1 with search 14 in range [0, 28] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 22 in range [15, 28] and 8 Int
+			Satisfiable
+		Iteration 3 with search 18 in range [15, 21] and 8 Int
+			Satisfiable
+		Iteration 4 with search 16 in range [15, 17] and 8 Int
+			Unsatisfiable
+		Iteration 5 with search 17 in range [17, 17] and 8 Int
+			Unsatisfiable
+		Solution found is 18
+
+		Time elapsed: 00:08:10.18
+
+	Instance 1
+		Writing instance './RLSB/ham15-109-214.sub.1.als'
+		Running Alloy
+		Iteration 0 with search 18 in range [17, 19] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 19 in range [19, 19] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 38 in range [20, 56] and 8 Int
+			Satisfiable
+		Iteration 3 with search 29 in range [20, 37] and 8 Int
+			Satisfiable
+		Iteration 4 with search 24 in range [20, 28] and 8 Int
+			Satisfiable
+		Iteration 5 with search 22 in range [20, 23] and 8 Int
+			Satisfiable
+		Iteration 6 with search 21 in range [20, 21] and 8 Int
+			Satisfiable
+		Iteration 7 with search 20 in range [20, 20] and 8 Int
+			Unsatisfiable
+		Solution found is 21
+
+		Time elapsed: 00:06:03.79
+
+	Instance 2
+		Writing instance './RLSB/ham15-109-214.sub.2.als'
+		Running Alloy
+		Iteration 0 with search 20 in range [17, 22] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 22 in range [21, 22] and 8 Int
+			Satisfiable
+		Iteration 2 with search 21 in range [21, 21] and 8 Int
+			Unsatisfiable
+		Solution found is 22
+
+		Time elapsed: 00:15:17.09
+
+	Instance 3
+		Writing instance './RLSB/ham15-109-214.sub.3.als'
+		Running Alloy
+		Iteration 0 with search 20 in range [17, 23] and 8 Int
+			Satisfiable
+		Iteration 1 with search 18 in range [17, 19] and 8 Int
+			Satisfiable
+		Iteration 2 with search 17 in range [17, 17] and 8 Int
+			Satisfiable
+		Iteration 3 with search 8 in range [0, 16] and 8 Int
+			Unsatisfiable
+		Iteration 4 with search 13 in range [9, 16] and 8 Int
+			Satisfiable
+		Iteration 5 with search 11 in range [9, 12] and 8 Int
+			Unsatisfiable
+		Iteration 6 with search 12 in range [12, 12] and 8 Int
+			Satisfiable
+		Solution found is 12
+
+		Time elapsed: 00:02:46.26
+
+	Instance 4
+		Writing instance './RLSB/ham15-109-214.sub.4.als'
+		Running Alloy
+		Iteration 0 with search 17 in range [11, 23] and 8 Int
+			Satisfiable
+		Iteration 1 with search 14 in range [11, 16] and 8 Int
+			Satisfiable
+		Iteration 2 with search 12 in range [11, 13] and 8 Int
+			Satisfiable
+		Iteration 3 with search 11 in range [11, 11] and 8 Int
+			Satisfiable
+		Iteration 4 with search 5 in range [0, 10] and 8 Int
+			Unsatisfiable
+		Iteration 5 with search 8 in range [6, 10] and 8 Int
+			Unsatisfiable
+		Iteration 6 with search 10 in range [9, 10] and 8 Int
+			Satisfiable
+		Iteration 7 with search 9 in range [9, 9] and 8 Int
+			Unsatisfiable
+		Solution found is 10
+
+		Time elapsed: 00:04:08.44
+
+	Cumulative solution is 83
+
+	Time elapsed: 00:36:25.83

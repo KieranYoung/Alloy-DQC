@@ -1,0 +1,91 @@
+Processing file './RevLib/add16_174.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is 10
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 0 (0.00%)
+	Layer merging reduced the layer count by 14 (21.88%)
+	There was a total layer reduction of 14 (21.88%)
+	The layer total is 50
+	The number of qubits is 49
+	The number of machines is 3
+	The largest gate has arity 3
+	The machine capacity is 17
+	The qubit allocation policy is 'QubitAlloc.RANDOM'
+	Splitting into 5 subproblems
+
+	Instance 0
+		Writing instance './RevLib/add16_174.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 20 in range [0, 40] and 8 Int
+			Satisfiable
+		Iteration 1 with search 10 in range [0, 19] and 8 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [0, 9] and 8 Int
+			Unsatisfiable
+		Iteration 3 with search 8 in range [6, 9] and 8 Int
+			Satisfiable
+		Iteration 4 with search 7 in range [6, 7] and 8 Int
+			Satisfiable
+		Iteration 5 with search 6 in range [6, 6] and 8 Int
+			Satisfiable
+		Solution found is 6
+
+		Time elapsed: 00:01:06.46
+
+	Instance 1
+		Writing instance './RevLib/add16_174.sub.1.als'
+		Running Alloy
+		Iteration 0 with search 6 in range [5, 7] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 7 in range [7, 7] and 8 Int
+			Satisfiable
+		Solution found is 7
+
+		Time elapsed: 00:00:27.89
+
+	Instance 2
+		Writing instance './RevLib/add16_174.sub.2.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 8] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 8 in range [8, 8] and 8 Int
+			Satisfiable
+		Solution found is 8
+
+		Time elapsed: 00:00:31.38
+
+	Instance 3
+		Writing instance './RevLib/add16_174.sub.3.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 8 Int
+			Unsatisfiable
+		Solution found is 7
+
+		Time elapsed: 00:00:26.03
+
+	Instance 4
+		Writing instance './RevLib/add16_174.sub.4.als'
+		Running Alloy
+		Iteration 0 with search 7 in range [5, 9] and 8 Int
+			Satisfiable
+		Iteration 1 with search 6 in range [5, 6] and 8 Int
+			Satisfiable
+		Iteration 2 with search 5 in range [5, 5] and 8 Int
+			Satisfiable
+		Iteration 3 with search 2 in range [0, 4] and 8 Int
+			Unsatisfiable
+		Iteration 4 with search 4 in range [3, 4] and 8 Int
+			Unsatisfiable
+		Solution found is 5
+
+		Time elapsed: 00:00:39.79
+
+	Cumulative solution is 33
+
+	Time elapsed: 00:03:11.64

@@ -1,0 +1,41 @@
+Processing file './RevLib/ham7_106.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is None
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 13GB
+    
+	Ignored single-qubit gates reduced the layer count by 0 (0.00%)
+	Layer merging reduced the layer count by 4 (16.00%)
+	There was a total layer reduction of 4 (16.00%)
+	The layer total is 21
+	The number of qubits is 7
+	The number of machines is 3
+	The largest gate has arity 3
+	The machine capacity is 3
+	The qubit allocation policy is 'QubitAlloc.RANDOM'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Writing instance './RevLib/ham7_106.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 31 in range [0, 62] and 8 Int
+			Satisfiable
+		Iteration 1 with search 15 in range [0, 30] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 23 in range [16, 30] and 8 Int
+			Satisfiable
+		Iteration 3 with search 19 in range [16, 22] and 8 Int
+			Satisfiable
+		Iteration 4 with search 17 in range [16, 18] and 8 Int
+			Unsatisfiable
+		Iteration 5 with search 18 in range [18, 18] and 8 Int
+			Unsatisfiable
+		Solution found is 19
+
+		Time elapsed: 00:00:05.98
+
+	Cumulative solution is 19
+
+	Time elapsed: 00:00:06.00
