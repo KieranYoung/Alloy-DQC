@@ -1,5 +1,22 @@
 #!/usr/local/bin/python3
 
+import sys
+import os
+import math
+import re
+import argparse
+import csv
+import subprocess
+import time
+import random
+from enum        import Enum
+from itertools   import combinations
+from string      import Template
+from collections import defaultdict
+from collections import deque
+
+
+ALLOY_JAR_PATH = os.path.dirname(os.path.abspath(__file__)) + "/"
 ALLOY_JAR = "org.alloytools.alloy.dist.jar"
 ALLOY_JAR_LINK = "https://github.com/AlloyTools/org.alloytools.alloy/releases/download/v6.0.0/" + ALLOY_JAR
 JPYPE_INSTALL = "pip install --user JPype1"
@@ -128,22 +145,6 @@ pred finalLayer {
 
 run finalLayer for $LAYERS circGraph, $INT_BITS Int
 """
-
-
-import sys
-import os
-import math
-import re
-import argparse
-import csv
-import subprocess
-import time
-import random
-from enum        import Enum
-from itertools   import combinations
-from string      import Template
-from collections import defaultdict
-from collections import deque
 
 
 class QubitAlloc(Enum):
@@ -345,7 +346,9 @@ def qubits_to_machines(qubits, machines):
 
 def qft_last_location(subp, qubits, machines, capacity):
     qubits_len = len(qubits)
-    last_loc = [machines[(q + qubits_len - subp) // capacity] for q in range(subp)]
+    machine_len = len(machines)
+   #last_loc = [machines[(q + qubits_len - subp) // capacity] for q in range(subp)]
+    last_loc = [machines[machine_len - 1 - (q // capacity)] for q in range(subp)]
     last_loc += [machines[q // capacity] for q in range(qubits_len - subp)]
     return qubits_to_machines(qubits, last_loc)
 
@@ -433,7 +436,7 @@ def open_read(path):
         print("\tError:", e, flush=flush_out)
 
 
-def tfc_to_als(machines, qubit_alloc, capacity, cost, tfc_path, als_path, condense_layers=True, cost_vm=False, info=False, verbose=False):
+def tfc_to_als(machines, qubit_alloc, capacity, cost, tfc_path, als_path, force=False, condense_layers=True, cost_vm=False, info=False, verbose=False):
     tfc = open_read(tfc_path)
     tfc = tfc.replace('^M', '')
 
@@ -534,7 +537,8 @@ def tfc_to_als(machines, qubit_alloc, capacity, cost, tfc_path, als_path, conden
 
     qubits = len(v_list)
 
-    machines, capacity = qnetwork(machines, capacity, qubits, largest_gate)
+    if not force:
+        machines, capacity = qnetwork(machines, capacity, qubits, largest_gate)
 
     v_list = prefix_list(Q_PREFIX, v_list) 
     m_list = prefix_list(M_PREFIX, [str(i) for i in range(machines)])
@@ -717,8 +721,8 @@ def start_alloy(solver, ram_gb):
         jvm_options = []
         if ram_gb > 0:
             jvm_options.append(f"-Xmx{ram_gb}g")
-            jvm_options.append(f"-Xss{ram_gb // 10}m")
-        jpype.startJVM(jpype.getDefaultJVMPath(), *jvm_options, '-Djava.class.path=' + ALLOY_JAR)
+            jvm_options.append(f"-Xss{ram_gb * 100}m")
+        jpype.startJVM(jpype.getDefaultJVMPath(), *jvm_options, '-Djava.class.path=' + ALLOY_JAR_PATH + ALLOY_JAR)
     except Exception as e:
         print("Error:", e, flush=flush_out)
         exit(1)
@@ -950,8 +954,8 @@ def output_sol_csv(inst, numTeles, layers, start_row, csv_path):
   
 
 def startup():
-    if not os.path.exists("./" + ALLOY_JAR):
-        print(f"Installing the dependency '{ALLOY_JAR}'", flush=flush_out)
+    if not os.path.exists(ALLOY_JAR_PATH + ALLOY_JAR):
+        print(f"Installing the dependency '{ALLOY_JAR}' at '{ALLOY_JAR_PATH}'", flush=flush_out)
         result = subprocess.run("curl -LO " +  ALLOY_JAR_LINK, shell=True)
         if result.returncode:
             print(f"Error: Alloy could not be installed from '{ALLOY_JAR_LINK}'", flush=flush_out)
@@ -991,6 +995,8 @@ if __name__ == '__main__':
             help="With '-a': The number of distributed machines.")
     parser.add_argument('-c', '--capacity', type=int, default=0,
             help="With '-a': The qubit capacity for each machine.")
+    parser.add_argument('--force', action='store_true', default=False,
+            help="With '-m' and '-c': Force the machine and capacity specified.")
     parser.add_argument('--qubit_alloc', choices=[qa.value for qa in QubitAlloc], default='random',
             help="With '-a': Specify how the qubits are allocated to the machines.")
     parser.add_argument('--cost', type=int, default=-1,
@@ -1031,6 +1037,7 @@ if __name__ == '__main__':
     gen_als         = args.als
     machines        = args.machines
     capacity        = args.capacity
+    force_param     = args.force
     qubit_alloc     = QubitAlloc(args.qubit_alloc) if args.qubit_alloc is not None else None
     cost_vm         = args.cost >= 0
     cost            = args.cost
@@ -1095,7 +1102,7 @@ if __name__ == '__main__':
 
         als = None
         if gen_als:
-            als, circ_freq = tfc_to_als(machines, qubit_alloc, capacity, cost, filename, path + ".als", condense_layers, cost_vm, info, verbose)
+            als, circ_freq = tfc_to_als(machines, qubit_alloc, capacity, cost, filename, path + ".als", force_param, condense_layers, cost_vm, info, verbose)
             if circ_freq is not None:
                 output_info_csv(circ_freq, path + ".info.csv")
 
