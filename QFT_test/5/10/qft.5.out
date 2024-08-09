@@ -1,0 +1,37 @@
+Processing file '././10/qft.5.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is [10]
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 10GB
+    
+	Ignored single-qubit gates reduced the layer count by 5 (50.00%)
+	Layer merging reduced the layer count by 0 (0.00%)
+	There was a total layer reduction of 5 (50.00%)
+	The layer total is 10
+	The number of qubits is 5
+	The number of machines is 3
+	The largest gate has arity 2
+	The machine capacity is 2
+	The qubit allocation policy is 'QubitAlloc.IN_ORDER'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Writing instance '././10/qft.5.sub.0.als'
+		Running Alloy
+		Iteration 0 with search 10 in range [0, 20] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 16 in range [11, 20] and 8 Int
+			Satisfiable
+		Iteration 2 with search 13 in range [11, 15] and 8 Int
+			Satisfiable
+		Iteration 3 with search 12 in range [11, 12] and 8 Int
+			Unsatisfiable
+		Solution found is 13
+
+		Time elapsed: 00:00:03.42
+
+	Cumulative solution is 13 (11 swaps)
+
+	Time elapsed: 00:00:03.42

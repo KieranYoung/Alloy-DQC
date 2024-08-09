@@ -1,0 +1,44 @@
+Processing file './/./cm42a_207.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is [0]
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 7GB
+    
+	Ignored single-qubit gates reduced the layer count by 15 (75.00%)
+	Layer merging reduced the layer count by 0 (0.00%)
+	There was a total layer reduction of 15 (75.00%)
+	The layer total is 21
+	The number of qubits is 14
+	The number of machines is 3
+	The largest gate has arity 5
+	The machine capacity is 5
+	The qubit allocation policy is 'QubitAlloc.IN_ORDER'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Running Alloy
+		Iteration 0 with search 66 in range [0, 132] and 9 Int
+			Satisfiable
+		Iteration 1 with search 33 in range [0, 65] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 50 in range [34, 65] and 8 Int
+			Satisfiable
+		Iteration 3 with search 42 in range [34, 49] and 8 Int
+			Satisfiable
+		Iteration 4 with search 38 in range [34, 41] and 8 Int
+			Satisfiable
+		Iteration 5 with search 36 in range [34, 37] and 8 Int
+			Satisfiable
+		Iteration 6 with search 35 in range [34, 35] and 8 Int
+			Satisfiable
+		Iteration 7 with search 34 in range [34, 34] and 8 Int
+			Satisfiable
+		Solution found is 34
+
+		Time elapsed: 00:00:26.98
+
+	Cumulative solution is 34
+
+	Time elapsed: 00:00:27.01

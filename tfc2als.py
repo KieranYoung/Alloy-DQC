@@ -326,7 +326,10 @@ def machine_locs(machines, cap):
     return "".join(strings) 
 
 
-def qubits_to_machines(qubits, machines):
+def qubits_to_machines(qubits, machines, start=0, end=None):
+    if end is None:
+        end = len(qubits)
+
     strings = []
 
     def append(i):
@@ -336,8 +339,8 @@ def qubits_to_machines(qubits, machines):
         strings.append(machines[i])
         strings.append(")")
 
-    append(0)
-    for i in range(1, len(qubits)):
+    append(start)
+    for i in range(start + 1, end, 1):
         strings.append(" + \n")
         append(i)
 
@@ -347,10 +350,46 @@ def qubits_to_machines(qubits, machines):
 def qft_last_location(subp, qubits, machines, capacity):
     qubits_len = len(qubits)
     machine_len = len(machines)
-   #last_loc = [machines[(q + qubits_len - subp) // capacity] for q in range(subp)]
+
     last_loc = [machines[machine_len - 1 - (q // capacity)] for q in range(subp)]
-    last_loc += [machines[q // capacity] for q in range(qubits_len - subp)]
     return qubits_to_machines(qubits, last_loc)
+
+#    last_loc = []
+#    for q in range(subp, machine_len + subp):
+#        last_loc += [machines[(q + ((subp + 0) % 2)) % machine_len] for c in range(capacity)]
+
+   #last_loc = [machines[machine_len - 1 - (q // capacity)] for q in range(subp)]
+   #last_loc = [machines[((q // capacity) + ((subp + 0) % 2)) % machine_len] for q in range(subp, qubits_len + subp)]
+   #last_loc = [machines[((q // capacity) + ((subp) % 2)) % machine_len] for q in range(subp, qubits_len + subp)]
+   #return qubits_to_machines(qubits, last_loc)
+
+   #last_loc = [machines[machine_len - 1 - q // capacity] for q in range(subp)]
+   #last_loc += [machines[q // capacity] for q in range(qubits_len - subp)]
+   #return qubits_to_machines(qubits, last_loc)
+
+   #last_loc = [machines[(q // capacity) % machine_len] for q in range(subp, subp + qubits_len)]
+   #return qubits_to_machines(qubits, last_loc)
+
+#   #last_loc = [machines[(q // capacity)] for q in range(qubits_len)]
+#    last_loc = [machines[q // capacity] for q in range(min(subp, capacity))]
+#   #last_loc += ["None" for q in range(qubits_len - min(subp, capacity))]
+#    last_loc += [machines[(q // capacity)] for q in range(qubits_len, min(subp, capacity), -1)]
+#    mq = capacity - subp
+#    for q in range(subp, qubits_len, 1):
+#        last_loc[q] = machines[(mq + q) // capacity]
+#    return qubits_to_machines(qubits, last_loc) #, start=subp, end=qubits_len)
+
+   #last_loc = [machines[(q + qubits_len - subp) // capacity] for q in range(subp)]
+
+   #last_loc = [machines[machine_len - 1 - (q // capacity)] for q in range(subp)]
+   #last_loc += [machines[q // capacity] for q in range(qubits_len - subp)]
+   #return qubits_to_machines(qubits, last_loc, start=subp, end=qubits_len)
+
+#    last_loc = ["None" for q in range(qubits_len)]
+#    mq = capacity - subp
+#    for q in range(subp, qubits_len, 1):
+#        last_loc[q] = machines[(mq + q) // capacity]
+#    return qubits_to_machines(qubits, last_loc, start=subp, end=qubits_len)
 
 
 def cost_to_string(machines, cost):
@@ -566,7 +605,7 @@ def tfc_to_als(machines, qubit_alloc, capacity, cost, tfc_path, als_path, force=
         print(f"\tIgnored single-qubit gates reduced the layer count by {single_gate_count} ({single_gate_perc:.2f}%)")
         print(f"\tLayer merging reduced the layer count by {merges} ({merges_perc:.2f}%)")
         print(f"\tThere was a total layer reduction of {reduc} ({reduc_perc:.2f}%)")
-        print(f"\tThe layer total is {cur_layer + 1}")
+        print(f"\tThe layer total is {cur_layer}")
         print(f"\tThe number of qubits is {qubits}")
         print(f"\tThe number of machines is {machines}")
         print(f"\tThe largest gate has arity {largest_gate}")
@@ -1136,7 +1175,7 @@ if __name__ == '__main__':
                 if sub_bounds[1] is None:
                     sub_bounds[1] = upper_bound
 
-                world, solution, tele = run_alloy(sub_als, execute, sub_bounds, rep, opt, als_params + [layer_size[i]], min_int_bits, verbose)
+                world, solution, tele = run_alloy(sub_als, execute, sub_bounds, rep, opt, als_params + [layer_size[i] if qft_last_loc else layer_size[0]], min_int_bits, verbose)
                 if verbose:
                     print_elapsed(instance_start_time, 2)
                 if world is not None and solution is not None:
@@ -1147,7 +1186,8 @@ if __name__ == '__main__':
                     break
 
             if verbose:
-                print(f"\n\tCumulative solution is {teles_total}", flush=flush_out)
+                teles_swaps = last_row[6]
+                print(f"\n\tCumulative solution is {teles_total} ({teles_swaps} swaps)", flush=flush_out)
 
         if exe_time:
             print_elapsed(local_start_time, 1)

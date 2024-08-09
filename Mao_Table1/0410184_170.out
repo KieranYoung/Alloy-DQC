@@ -1,0 +1,40 @@
+Processing file './/./0410184_170.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is [0]
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 7GB
+    
+	Ignored single-qubit gates reduced the layer count by 8 (24.24%)
+	Layer merging reduced the layer count by 14 (42.42%)
+	There was a total layer reduction of 22 (66.67%)
+	The layer total is 19
+	The number of qubits is 14
+	The number of machines is 7
+	The largest gate has arity 2
+	The machine capacity is 2
+	The qubit allocation policy is 'QubitAlloc.IN_ORDER'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Running Alloy
+		Iteration 0 with search 33 in range [0, 66] and 8 Int
+			Unsatisfiable
+		Iteration 1 with search 50 in range [34, 66] and 8 Int
+			Satisfiable
+		Iteration 2 with search 42 in range [34, 49] and 8 Int
+			Satisfiable
+		Iteration 3 with search 38 in range [34, 41] and 8 Int
+			Satisfiable
+		Iteration 4 with search 36 in range [34, 37] and 8 Int
+			Unsatisfiable
+		Iteration 5 with search 37 in range [37, 37] and 8 Int
+			Satisfiable
+		Solution found is 37
+
+		Time elapsed: 96:24:02.69
+
+	Cumulative solution is 37
+
+	Time elapsed: 96:24:02.72

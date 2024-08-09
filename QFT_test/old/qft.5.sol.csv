@@ -1,0 +1,15 @@
+Instance,Global Circuit layer,Local Circuit Layer,Number of Teleported Qubits,Total Number of Teleported Qubits,Number of Teleported Qubit Swaps,Total Number of Teleported Qubits Minus Swaps,q_0,q_1,q_2,q_3,q_4
+0,0,0,0,0,0,0,M_0,M_0,M_1,M_1,M_2
+0,1,1,0,0,0,0,M_0,M_0,M_1,M_1,M_2
+0,2,2,2,2,1,1,M_0,M_1,M_0,M_1,M_2
+0,3,3,2,4,1,2,M_1,M_0,M_0,M_1,M_2
+0,4,4,1,5,0,3,M_2,M_0,M_0,M_1,M_2
+0,5,5,1,6,0,4,M_2,M_0,M_0,M_1,M_1
+1,5,0,0,6,0,4,M_2,M_0,M_0,M_1,M_1
+1,6,1,0,6,0,4,M_2,M_0,M_0,M_1,M_1
+1,7,2,2,8,1,5,M_2,M_0,M_1,M_0,M_1
+1,8,3,2,10,1,6,M_2,M_0,M_1,M_1,M_0
+1,9,4,0,10,0,6,M_2,M_0,M_1,M_1,M_0
+1,10,5,2,12,0,8,M_2,M_2,M_0,M_1,M_0
+1,11,6,1,13,0,9,M_2,M_2,M_0,M_1,M_1
+1,12,7,0,13,0,9,M_2,M_2,M_0,M_1,M_1

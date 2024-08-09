@@ -1,0 +1,46 @@
+Processing file './/./misex1_241.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is [0]
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 7GB
+    
+	Ignored single-qubit gates reduced the layer count by 13 (30.95%)
+	Layer merging reduced the layer count by 0 (0.00%)
+	There was a total layer reduction of 13 (30.95%)
+	The layer total is 43
+	The number of qubits is 15
+	The number of machines is 3
+	The largest gate has arity 7
+	The machine capacity is 7
+	The qubit allocation policy is 'QubitAlloc.IN_ORDER'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Running Alloy
+		Iteration 0 with search 158 in range [0, 316] and 10 Int
+			Satisfiable
+		Iteration 1 with search 79 in range [0, 157] and 9 Int
+			Satisfiable
+		Iteration 2 with search 39 in range [0, 78] and 8 Int
+			Unsatisfiable
+		Iteration 3 with search 59 in range [40, 78] and 8 Int
+			Unsatisfiable
+		Iteration 4 with search 69 in range [60, 78] and 9 Int
+			Satisfiable
+		Iteration 5 with search 64 in range [60, 68] and 9 Int
+			Satisfiable
+		Iteration 6 with search 62 in range [60, 63] and 8 Int
+			Satisfiable
+		Iteration 7 with search 61 in range [60, 61] and 8 Int
+			Satisfiable
+		Iteration 8 with search 60 in range [60, 60] and 8 Int
+			Satisfiable
+		Solution found is 60
+
+		Time elapsed: 00:16:15.99
+
+	Cumulative solution is 60
+
+	Time elapsed: 00:16:16.03

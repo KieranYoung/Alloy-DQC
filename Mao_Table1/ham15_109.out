@@ -1,0 +1,44 @@
+Processing file './/./ham15_109.tfc'
+
+    The search algorithm is 'recent'
+    The bounds are [0, None]
+    The layer size is [0]
+    The SAT solver is 'MiniSatJNI'
+    RAM allocation is set to 7GB
+    
+	Ignored single-qubit gates reduced the layer count by 0 (0.00%)
+	Layer merging reduced the layer count by 19 (17.43%)
+	There was a total layer reduction of 19 (17.43%)
+	The layer total is 90
+	The number of qubits is 15
+	The number of machines is 3
+	The largest gate has arity 5
+	The machine capacity is 5
+	The qubit allocation policy is 'QubitAlloc.IN_ORDER'
+	Splitting into 1 subproblems
+
+	Instance 0
+		Running Alloy
+		Iteration 0 with search 126 in range [0, 252] and 9 Int
+			Satisfiable
+		Iteration 1 with search 63 in range [0, 125] and 8 Int
+			Unsatisfiable
+		Iteration 2 with search 95 in range [64, 125] and 9 Int
+			Satisfiable
+		Iteration 3 with search 79 in range [64, 94] and 9 Int
+			Satisfiable
+		Iteration 4 with search 71 in range [64, 78] and 9 Int
+			Unsatisfiable
+		Iteration 5 with search 75 in range [72, 78] and 9 Int
+			Unsatisfiable
+		Iteration 6 with search 77 in range [76, 78] and 9 Int
+			Satisfiable
+		Iteration 7 with search 76 in range [76, 76] and 9 Int
+			Satisfiable
+		Solution found is 76
+
+		Time elapsed: 12:46:19.36
+
+	Cumulative solution is 76
+
+	Time elapsed: 12:46:19.62
