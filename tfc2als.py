@@ -17,8 +17,12 @@ from collections import deque
 
 
 ALLOY_JAR_PATH = os.path.dirname(os.path.abspath(__file__)) + "/"
-ALLOY_JAR = "org.alloytools.alloy.dist.jar"
-ALLOY_JAR_LINK = "https://github.com/AlloyTools/org.alloytools.alloy/releases/download/v6.0.0/" + ALLOY_JAR
+if True:
+    ALLOY_JAR = "org.alloytools.alloy.dist.jar"
+    ALLOY_JAR_LINK = "https://github.com/AlloyTools/org.alloytools.alloy/releases/download/v6.0.0/" + ALLOY_JAR
+else:
+    ALLOY_JAR = "alloy4.2_2015-02-22.jar"
+    ALLOY_JAR_LINK = "http://alloytools.org/download/" + ALLOY_JAR
 JPYPE_INSTALL = "pip install --user JPype1"
 
 Q_PREFIX = 'q_'
@@ -760,7 +764,7 @@ def start_alloy(solver, ram_gb):
         jvm_options = []
         if ram_gb > 0:
             jvm_options.append(f"-Xmx{ram_gb}g")
-            jvm_options.append(f"-Xss{ram_gb * 100}m")
+            jvm_options.append(f"-Xss{ram_gb * 10}m")
         jpype.startJVM(jpype.getDefaultJVMPath(), *jvm_options, '-Djava.class.path=' + ALLOY_JAR_PATH + ALLOY_JAR)
     except Exception as e:
         print("Error:", e, flush=flush_out)
@@ -811,7 +815,7 @@ def stop_alloy():
     jpype.shutdownJVM()
 
 
-def run_alloy(als, execute, bounds, rep, opt, params, min_int_bits, verbose=False):
+def run_alloy(als, execute, moe, bounds, rep, opt, params, min_int_bits, verbose=False):
     global CompUtil, A4Reporter, A4Options, TranslateAlloyToKodkod
 
     if verbose:
@@ -858,6 +862,14 @@ def run_alloy(als, execute, bounds, rep, opt, params, min_int_bits, verbose=Fals
                 print("\t\t\tUnsatisfiable", flush=flush_out)
         iteration += 1
 
+        if last_result:
+            moe_search_upper = search.get_upper()
+            moe_search_lower = search.get_lower()
+            if moe > 0 and (moe_search_upper - moe_search_lower) <= moe:
+                if verbose:
+                    print(f"\t\tMoE caught range [{search.get_lower()}, {search.get_upper()}]", flush=flush_out)
+                break
+
     if not last_result:
         print(f"\t\tNo solution in range [{lower_bound}, {upper_bound}]", flush=flush_out)
         return (None, None, None)
@@ -867,7 +879,10 @@ def run_alloy(als, execute, bounds, rep, opt, params, min_int_bits, verbose=Fals
     if isinstance(search, RecentHistorySearch):
         search.append_history(last_result[-1])
 
-    return last_result
+    final_tele = last_result[2]
+    moe_range = [min(final_tele, moe_search_lower), max(final_tele, moe_search_upper)]
+
+    return last_result, moe_range
 
 
 def generate_qft(N):
@@ -1046,6 +1061,8 @@ if __name__ == '__main__':
             help="With '-a': Leave the generated '.als' file layers uncondensed")
     parser.add_argument('-e', '--execute', choices=[exe.value for exe in Exe], default=None,
             help="Execute the generated or provided '.als' file with the specified search algorithm.")
+    parser.add_argument('--marginoferror', type=int, default=0,
+            help="With '-e': Stop the binary search once within range of the specified value.")
     parser.add_argument('-b', '--bounds', nargs=2, type=int, default=[0, None],
             help="With '-e': The lower and upper bound on the number of teleportations used with the search algorithm.")
     parser.add_argument('-l', '--layer', nargs='+', type=int, default=[0],
@@ -1070,6 +1087,8 @@ if __name__ == '__main__':
             help="Save any stdout or stderr to a '.out' file.")
     parser.add_argument('-f', '--flush', action='store_true', default=False,
             help="Write output '.out' (like '-o') while flushing every print.")
+    parser.add_argument('--outname', type=str, default=None,
+            help="Outfile path.")
     args = parser.parse_args()
 
     files           = args.filename
@@ -1082,6 +1101,7 @@ if __name__ == '__main__':
     cost            = args.cost
     info            = args.info
     execute         = Exe(args.execute) if args.execute is not None else None
+    marginoferror   = args.marginoferror
     bounds          = args.bounds
     bounds[0]       = max(bounds[0], 0) if args.bounds[0] is not None else 0
     bounds[1]       = bounds[1] if args.bounds[1] is not None and args.bounds[1] > 0 else None
@@ -1097,6 +1117,7 @@ if __name__ == '__main__':
     exe_time        = args.time or verbose
     flush_out       = args.flush
     save_out        = args.output
+    outname         = args.outname
 
     if exe_time:
         global_start_time = time.time()
@@ -1110,11 +1131,14 @@ if __name__ == '__main__':
     The bounds are {bounds}
     The layer size is {layer_size}
     The SAT solver is '{args.solver}'
+    The margin of error is {marginoferror}
     RAM allocation is set to {f"{ram_gb}GB" if ram_gb > 0 else "'default'"}
     """
 
     for filename in files:
         path, *post_fix = os.path.splitext(filename)
+        if outname:
+            path = outname
 
         if gen_qft > 0:
             write_qft(f"{path}.{gen_qft}.tfc", gen_qft)
@@ -1157,6 +1181,7 @@ if __name__ == '__main__':
             layers = None
             last_row = None
             teles_total = 0
+            working_moe_range = [0,0]
             for i, (sub_als, upper_bound) in enumerate(zip(*als_subproblems(als, layer_size, als_extract, qft_last_loc, verbose))):
                 if verbose:
                     print(f"\n\tInstance {i}", flush=flush_out)
@@ -1175,7 +1200,11 @@ if __name__ == '__main__':
                 if sub_bounds[1] is None:
                     sub_bounds[1] = upper_bound
 
-                world, solution, tele = run_alloy(sub_als, execute, sub_bounds, rep, opt, als_params + [layer_size[i] if qft_last_loc else layer_size[0]], min_int_bits, verbose)
+                ran_result, moe_range = run_alloy(sub_als, execute, marginoferror, sub_bounds, rep, opt, als_params + [layer_size[i] if qft_last_loc else layer_size[0]], min_int_bits, verbose)
+                world, solution, tele = ran_result
+
+                working_moe_range[0] += moe_range[0]
+                working_moe_range[1] += moe_range[1]
                 if verbose:
                     print_elapsed(instance_start_time, 2)
                 if world is not None and solution is not None:
@@ -1188,6 +1217,8 @@ if __name__ == '__main__':
             if verbose:
                 teles_swaps = last_row[6]
                 print(f"\n\tCumulative solution is {teles_total} ({teles_swaps} swaps)", flush=flush_out)
+                if marginoferror > 0:
+                    print(f"\t\t MoE solution range is [{working_moe_range[0]}, {working_moe_range[1]}]", flush=flush_out)
 
         if exe_time:
             print_elapsed(local_start_time, 1)
