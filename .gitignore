@@ -4,3 +4,7 @@
 *~
 *.swp
 *.swo
+
+*.als
+*.out
+*.csv

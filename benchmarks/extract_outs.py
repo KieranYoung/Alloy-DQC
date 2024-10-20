@@ -1,3 +1,7 @@
+import pandas as pd
+import statsmodels.api as sm
+from statsmodels.formula.api import ols
+from collections import defaultdict
 import sys
 import os
 import re
@@ -113,9 +117,56 @@ def write_to_csv(extracted_data, output_csv):
     except Exception as e:
         print(f"Error writing to CSV file {output_csv}: {e}")
 
+
+def analysis_ss_moe_anova(data, filename):
+    with open(filename, 'w') as file:
+        for cname, cvalues in ret.items():
+            try:
+                moe = []
+                ss = []
+                response = []
+                for item in cvalues:
+                    moe.append(int(item['Margin of Error']))
+                    ss.append(item['SAT Solver'])
+                    response.append(item['Time'])
+                dt = {
+                    'Margin_of_Error': moe,
+                    'SAT_Solver': ss,
+                    'Response': response
+                }
+                df = pd.DataFrame(dt)
+                model = ols('Response ~ Margin_of_Error * SAT_Solver', data=df).fit()
+                # ANOVA Table
+                anova_table = sm.stats.anova_lm(model, typ=2)
+               #print(anova_table)
+                file.write(cname + "\n")
+                file.write(str(anova_table))
+                file.write("\n\n")
+            except Exception as e:
+                print(cname, "FAILED", e)
+
+
+#def analysis_ss_moe(data, filename):
+#    with open(filename, 'w') as file:
+#        for cname, cvalues in ret.items():
+#            try:
+#                moe = []
+#                ss = []
+#                response = []
+#                for item in cvalues:
+#                    moe.append(int(item['Margin of Error']))
+#                    ss.append(item['SAT Solver'])
+#                    response.append(item['Time'])
+#                file.write(cname + "\n")
+#               #file.write(str(anova_table))
+#                file.write("\n\n")
+#            except Exception as e:
+#                print(cname, "FAILED", e)
+
+
 if __name__ == "__main__":
     if (len(sys.argv) < 3):
-        print(f'{sys.argv[0]} out.csv dir1 dir2 ...')
+        print(f'{sys.argv[0]} out dir1 dir2 ...')
         exit(1)
     
     # Define the output CSV file name
@@ -127,8 +178,15 @@ if __name__ == "__main__":
         # Define the root directory where the search should begin
         root_dir = sys.argv[i]
         extracted_data += find_and_extract(root_dir)
-    
+   
+    # Sort by circuit name
+    ret = defaultdict(list)
+    for d in extracted_data:
+        n = d['File'].split(".")[0]
+        ret[n].append(d)
+#   analysis_ss_moe(ret, output_csv + ".txt") 
+    analysis_ss_moe_anova(ret, output_csv + ".anova") 
     # Write the results to a CSV file
-    write_to_csv(extracted_data, output_csv)
+    write_to_csv(extracted_data, output_csv + ".csv")
 
     print(f"Extraction complete. Data saved to {output_csv}.")
