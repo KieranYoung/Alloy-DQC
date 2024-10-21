@@ -180,6 +180,10 @@ class Search:
         return self.lower_bound
     def get_upper(self):
         return self.upper_bound
+    def get_true_lower(self):
+        return self.get_lower()
+    def get_true_upper(self):
+        return self.get_upper()
     def loop(self):
         pass
     def update(self, satisfiable):
@@ -253,9 +257,20 @@ class RecentHistorySearch(Search): # TODO doesn't quit on unsatisfiable
         return self.search.get_lower()
     def get_upper(self):
         return self.search.get_upper()
+    def get_true_lower(self):
+        if self.valid_unsat:
+            return self.search.get_lower()
+        else:
+            return self.lower_bound
+    def get_true_upper(self):
+        if self.valid_sat:
+            return self.search.get_upper()
+        else:
+            return self.upper_bound
     def loop(self):
         return self.loop_result
     def update(self, satisfiable):
+        super().update(satisfiable)
         self.search.update(satisfiable)
         self.loop_result = self.search.loop()
         if not self.loop_result:
@@ -863,11 +878,11 @@ def run_alloy(als, execute, moe, bounds, rep, opt, params, min_int_bits, verbose
         iteration += 1
 
         if last_result:
-            moe_search_upper = search.get_upper()
-            moe_search_lower = search.get_lower()
+            moe_search_upper = max(last_result[2], search.get_true_upper())
+            moe_search_lower = min(last_result[2], search.get_true_lower())
             if moe > 0 and (moe_search_upper - moe_search_lower) <= moe:
                 if verbose:
-                    print(f"\t\tMoE caught range [{search.get_lower()}, {search.get_upper()}]", flush=flush_out)
+                    print(f"\t\tMoE caught range [{moe_search_lower}, {moe_search_upper}]", flush=flush_out)
                 break
 
     if not last_result:
@@ -879,8 +894,7 @@ def run_alloy(als, execute, moe, bounds, rep, opt, params, min_int_bits, verbose
     if isinstance(search, RecentHistorySearch):
         search.append_history(last_result[-1])
 
-    final_tele = last_result[2]
-    moe_range = [min(final_tele, moe_search_lower), max(final_tele, moe_search_upper)]
+    moe_range = [moe_search_lower, moe_search_upper]
 
     return last_result, moe_range
 

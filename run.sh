@@ -1,15 +1,10 @@
 #!/bin/bash
 
 PY="python3.12 ./tfc2als.py"
-OG_FLAGS="-itvow -r 15 -e recent --int_bits 8 --qubit_alloc inorder"
+OG_FLAGS="-itvo -r 15 -e recent --int_bits 8 --qubit_alloc inorder"
 
 MOES=( 8 4 2 0 )
 SATS=( "SAT4J" "MiniSatProverJNI" "MiniSatJNI" )
-
-# TODO REMOVE TEST
-#DIR="./RLSB-${SATS[0]}"
-#$PY $FLAGS -s ${SATS[0]} -a $DIR/2of5d1.tfc -m 2 
-#exit 0
 
 DIR="./benchmarks/qce2024"
 
