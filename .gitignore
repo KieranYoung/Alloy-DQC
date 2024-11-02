@@ -1,0 +1,12 @@
+**/temp/
+**/tmp/
+
+*~
+*.swp
+*.swo
+
+*.als
+*.out
+*.csv
+benchmarks/sources
+benchmarks/backup
